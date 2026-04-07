@@ -22,7 +22,7 @@ namespace CodeDestroyer.Editor
 
         // Project Variables
         public static readonly string ProjectTempDirectoryPath = Path.GetDirectoryName(Application.dataPath) + Path.DirectorySeparatorChar + DomainName;
-        public static readonly string ProjectTempInstalledFilePath = ProjectTempDirectoryPath + Path.DirectorySeparatorChar + UnityEditorVisualPackageName + ".installed";
+        public static readonly string ProjectTempInstalledFilePath = ProjectTempDirectoryPath + Path.DirectorySeparatorChar + "EditorVisual" + ".installed";
 
 
         private static readonly Color defaultLineDarkColor = new Color(0.1215686f, 0.1215686f, 0.1215686f, 1f);
