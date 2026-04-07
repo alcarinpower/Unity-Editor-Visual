@@ -9,7 +9,6 @@ using UnityEngine;
 [InitializeOnLoad]
 public class ProjectInstalled
 {
-
     static ProjectInstalled()
     {
         CreateInstalledTempFile();
