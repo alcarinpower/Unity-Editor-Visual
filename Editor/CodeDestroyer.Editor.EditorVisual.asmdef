@@ -1,5 +1,5 @@
 {
-    "name": "UnityEditorVisual",
+    "name": "CodeDestroyer.Editor.EditorVisual",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [
