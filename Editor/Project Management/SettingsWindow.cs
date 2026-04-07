@@ -12,7 +12,7 @@ namespace CodeDestroyer.Editor.EditorVisual
         private const string folderIconsName = "Folder Icons";
 #endif
 
-        private static readonly Vector2 minWindowSize = new Vector2(310f, 200f);
+        private static readonly Vector2 windowSize = new Vector2(1020f, 610f);
 
         private List<TreeViewItemData<string>> projectSettingsList = new List<TreeViewItemData<string>>();
         private Dictionary<string, VisualElement> rootDict = new Dictionary<string, VisualElement>();
@@ -23,7 +23,15 @@ namespace CodeDestroyer.Editor.EditorVisual
             EditorVisualSettingsWindow settingsWindow = GetWindow<EditorVisualSettingsWindow>();
             settingsWindow.titleContent.text = "Editor Visual Settings";
             settingsWindow.titleContent.image = EditorGUIUtility.FindTexture("SettingsIcon");
-            settingsWindow.minSize = minWindowSize;
+            Rect main = EditorGUIUtility.GetMainWindowPosition();
+            Vector2 center = main.center;
+
+            settingsWindow.position = new Rect(
+                center.x - windowSize.x * 0.5f,
+                center.y - windowSize.y * 0.5f,
+                windowSize.x,
+                windowSize.y
+            );
         }
         private void OnEnable()
         {
