@@ -31,9 +31,9 @@ namespace CodeDestroyer.Editor.EditorVisual
         // Main function that includes everything that must be running from AssetPostProccesor with didDomainReload block
         internal static void InitializeFolderIcons()
         {
+            if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath)) return;
             Debug.Log("before AssetOperations");
 
-            AssetOperations();
             Debug.Log("after AssetOperations");
 
             PackageInfo packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName);
@@ -66,6 +66,7 @@ namespace CodeDestroyer.Editor.EditorVisual
                 Debug.Log("Nope");
                 return;
             }
+            AssetOperations();
 
             InitInspectorHeaderContents();
 
