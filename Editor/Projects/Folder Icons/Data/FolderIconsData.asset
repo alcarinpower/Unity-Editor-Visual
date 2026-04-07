@@ -1353,7 +1353,7 @@ MonoBehaviour:
   - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/RenderPipeline/SettingsStrippingResults
     isFolderEmpty: 1
   - folderPath: Packages/com.compilerdestroyer.editorvisual/Editor
-    isFolderEmpty: 1
+    isFolderEmpty: 0
   - folderPath: Packages/com.unity.render-pipelines.universal/Textures/2D
     isFolderEmpty: 1
   - folderPath: Packages/com.unity.cinemachine/Editor/EditorResources/Icons
@@ -2122,897 +2122,208 @@ MonoBehaviour:
     isFolderEmpty: 1
   - folderPath: Packages/com.unity.render-pipelines.universal/Shaders/AutodeskInteractive
     isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Light
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Tiles/AnimatedTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule/Overlay
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Indoors
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/SpriteMeshData
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/Assets
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Path/Editor/IMGUI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SpriteLib/SpriteLibraryEditor/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor/Aseprite/Chunks
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/2D
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Tests/Editor/Tools
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Runtime/External
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor/Common
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Tools/MaterialUpgrader
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/Editor/InternalBridge
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Runtime/SpriteLib
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Editor/InternalBridge/TexturePlatformSettings
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Editor/DebugTools
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/UpgradeTools/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Tools/Converters/ReadonlyMaterialConverter
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Tiles
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor/Assets
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Editor/Analytics
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets/SpriteSwap
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Tools
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/Terrain
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SpriteLib
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Runtime/PathTracing
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/Tasks
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/Interface
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/IK/Editor/Inspectors
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Tests
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement/CellLabelWithIcon
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Editor/TextureGenerator
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime-PrivateShared/InternalBridge
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/WeightsGenerator
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Menu
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Brushes/GameObjectBrush
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Editor/Features
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/SpriteEditor/SpriteEditorHintPopup
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/Terrain/Includes
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap/Tests/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SpriteSkin
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/Triangulation
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Runtime
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement/SpriteAtlasReportTable
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Runtime/External/LibTessDotNet
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdFile/Layers
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/PSDPlugin
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor-PrivateShared/Tools/Converter
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor-PrivateShared/AssetCallbacks
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap/Editor/TileSet
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor/Common/InternalBridge
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Path/Editor/Handles
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Common
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Tools/Converters/PPv2/EffectConverters
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/UpgradeTools
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Editor/ScriptablePacker
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/UpgradeTools/Utilities
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/Lib/x86_64
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Tests/EditorTests
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Editor/ImagePacker
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/LayoutOverlay/Manipulators
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Sampling/Textures
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite
-      Shapes
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap/Editor/UI/External
-    isFolderEmpty: 1
-  - folderPath: Packages/com.compilerdestroyer.editortools/Runtime
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/SpriteEditor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor/PathTracing
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.modules.vectorgraphics
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Tests
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape
-    isFolderEmpty: 1
-  - folderPath: Packages/com.compilerdestroyer.editortools/Editor/Tools/2D
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/Lib
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/VisibilityTool
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Path/Editor/Shapes
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/GraphTemplates/Subgraphs/Terrain
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Tests/Editor/Tools/Converters/ReadonlyMaterialConverter
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/AnalyzerWindow
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor/PathTracing/Debugging
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor/Aseprite
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Meshes
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor-PrivateShared/Tools/Converter/Window
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Brushes/RandomBrush
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/Utilities
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Terrain
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Editor/Handles
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/IK
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SpriteAtlasIssuesContainer
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Textures
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdFile/Layers/LayerInfo
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Runtime/BatchedDeformation
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/UTK
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Editor/ImagePacker/Jobs
-    isFolderEmpty: 1
-  - folderPath: Packages/com.compilerdestroyer.editortools/Runtime/Attributes
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Path/Editor/EditablePath
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor/Inspector
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Runtime
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Brushes
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.ugui/Editor/Analytics
-    isFolderEmpty: 1
-  - folderPath: Assets/Settings/Scenes
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/Cache
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Tools/MaterialUpgrader
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Editor/InternalBridge
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdFile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/Tools
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/IK/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Tests/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SpriteLib/SpriteSwapOverlay
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PhotoShopFileType
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SpriteCountInAtlasIssue
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.modules.subsystems
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Runtime/Tiles
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor/ScriptTemplates
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Tests/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/AnalyzerWindow/DataSourceListItem
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/CanvasRenderer
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/DataSource
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Sampling
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement/CommonSpriteAtlasIssueView
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdFile/ImageResources
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Editor/OnBoarding
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap/Editor/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/Selectors
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/MaterialPool
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SpriteLib/SpriteLibraryEditor/UI/CustomElements
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Path
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Editor/Icons
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/CharacterModeTool
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Brushes/GroupBrush
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.ugui/Editor/Analytics/IAnalytic
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SpriteAtlasPageIssue
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Vrs/Shaders
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Path/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Editor/Recommendations
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Editor/Questionnaire
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.test-framework/Tests
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Runtime/Triangulation
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/ClipperLib
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature
-    isFolderEmpty: 1
-  - folderPath: Packages/com.compilerdestroyer.editortools/Editor/Tools/3D
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/SkeletonTool
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/SkinningCache
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SpriteLib/SpriteLibrarySourceAsset
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets/LayoutOverlay
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor/Utilities
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/LayoutOverlay
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/Lib/ARM64
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SpriteWithSecondaryTextureIssue
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Tests/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/AnalyzerWindow/ReportListItem
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Tools
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/UI/SpriteEditor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap/Editor/EditorTools/GridSelection
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/IsometricRuleTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/Utilities
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/RenderPipeline
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Controls
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/Passes/PostProcess
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets/AssetUpgrader
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap/Editor/EditorTools
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Tiles/AutoTile
-    isFolderEmpty: 1
-  - folderPath: Assets/New Folder
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/Terrain
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PathTracing
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Path/Editor/IMGUI/GUIFramework
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.modules.adaptiveperformance
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Runtime/URaster2D
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Tests/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/2D/Overrides
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/GeometryPool
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor/Assets/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement/OKCancel
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/Selection
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor/UnifiedRayTracing
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Tiles/RuleOverrideTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/OutlineGenerator
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SpriteOutlineRenderer
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/SkinningSerializer
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/Undo
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement/StyleSheet
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/MeshPreviewTool
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/Tools/MaterialUpgrader
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.ugui/Runtime/InternalBridge
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Tests
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/GraphTemplates
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.test-framework/Tests/TestNewCustomAssembly
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/AnimatedTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/GraphTemplates/BuiltIn
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Path/Editor/Handles/Path
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/Lightmapping
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Upscaling
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/Assets/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Lightmapping
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Editor/InternalBridge/SpriteDataProviders
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Editor/Handles/Shaders
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap/Tests
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/UITK
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Tiles/HexagonalRuleTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Tools/Converters/PPv2
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Tests/Editor/Tools/Converters
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/Undo
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Runtime/2D/FrameData
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/IMGUI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.compilerdestroyer.editortools/Editor/Settings
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/Interface
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/SpriteEditorModule
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Runtime
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule/UndoObject
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/IK/Runtime/Solvers
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.ugui/Tests/Runtime/UGUI/RawImage
-    isFolderEmpty: 1
-  - folderPath: Packages/com.compilerdestroyer.editortools/Editor/Documentation
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap/Editor/Icons
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light
-    isFolderEmpty: 1
-  - folderPath: Packages/com.compilerdestroyer.editortools/Editor/Utilities
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/ScriptTemplates
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/IK/Runtime/Culling
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Dark
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/Editor/Data/Nodes/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Sampling/Textures/SobolBlueNoise
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/Assets
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/Vrs
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Runtime/UAi2D
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/ShapeEditor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Tests/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Path/Editor/Selection
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Runtime/GridInformation
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Terrain
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets/SpriteLibraryEditor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor/AssetGeneration
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/AllSpriteAtlasReport
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameEditor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/Lib/x64
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/HexagonalRuleTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/IK/Runtime
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Path/Editor/EditorTool
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SpriteAtlasTextureSpaceUsedIssue
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SpriteLib/SpriteLibraryEditor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.ugui/Tests/Editor/Common
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Tests/Editor
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Tiles/AutoTile/UI
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Runtime/UTess2D
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor-PrivateShared/Tools
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Dark
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Tests
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/AnalyzerWindow/ReportListView
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Tiles/IsometricRuleTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/AutoTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.multiplayer.center/Tests/Runtime
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite
-      Shape Profiles
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/MeshTool
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/SkinningModule/SpriteBoneInfluence
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Brushes/LineBrush
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdFile/Compression
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Runtime/InternalBridge
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.universal/Editor/Tools/Converters
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Selected
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Hardware
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Environment
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Tests
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Editor/InternalBridge/Deprecated
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SourceTextureWithCompressionIssue
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.tilemap.extras/Editor/Tiles/RuleTile
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.aseprite/Editor/Tasks
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Tests/Editor/PathTracing
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Core
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.common/Runtime
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor/PropertyDrawers
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/GraphTemplates/Subgraphs
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.timeline/Editor/Samples
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.shadergraph/Editor/Generation/Targets/UITK/Templates
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PDNWrapper
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.spriteshape/Tests
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.render-pipelines.core/Editor/Upscaling
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.psdimporter/Tests
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.collections/Unity.Collections.Tests/System.IO.Hashing
-    isFolderEmpty: 1
-  - folderPath: Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation
-    isFolderEmpty: 1
   allFoldersPathList:
-  - Assets/New Folder
+  - Assets/BetterFolders
+  - Assets/BetterFolders/Documentation
+  - Assets/BetterFolders/Editor
+  - Assets/BetterFolders/Resources
+  - Assets/BetterFolders/Resources/Icons
+  - Assets/BetterFolders/Resources/Presets
+  - Assets/Brick Project Studio
+  - Assets/Brick Project Studio/_BPS Basic Assets
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Base Scene
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Exterior
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Doors
+    Frames
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_01
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/Interior/Int_02
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/BA Build Kit/IntExt
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Basic Asset/Furniture_Props
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Fire
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Legacy
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Fixtures
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Doors
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Floors
+    Ceilings
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Stall
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/RR Build Kit/Walls
+  - Assets/Brick Project Studio/_BPS Basic Assets/_Prefabs/Restroom/Signs
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Basic Assets
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Fire
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Legacy
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Materials/Restroom
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Models
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Build Kits
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Models/Legacy
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Doors
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/X
+    Axis
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Drawer/Z
+    Axis
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/First
+    Person Player
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Scripts and Animations/Windows
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Basic Asset
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Fire
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Legacy
+  - Assets/Brick Project Studio/_BPS Basic Assets/Common/Textures/Restroom
+  - Assets/Brick Project Studio/Apartment Kit
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Ext_Apt_01
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Exteriors/Special
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Int into Ext
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Flooring
+    & Ceilings
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Frames
+    Windows Stairs & Doors
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Collum
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Molding
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall
+    Modern
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Special/Wall
+    Tiles
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls
+    Frames & Doors
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls
+    Frames & Doors/Apt_01
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls
+    Frames & Doors/Apt_02
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Apt Build Kit/Interiors/Walls
+    Frames & Doors/Apt_03
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bathroom
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Bedroom
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Appliances
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Kitchen/Cabinets
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Living Room
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Misc
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Furniture/Wine Cabinet
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Art
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Bathroom
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Electronics
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Kitchen
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Lighting
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Misc
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Sculptures
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Props/Wine Liquor Beer and
+    Glassware - Sample
+  - Assets/Brick Project Studio/Apartment Kit/_Prefabs/Structures
+  - Assets/Brick Project Studio/Apartment Kit/Common
+  - Assets/Brick Project Studio/Apartment Kit/Common/Materials
+  - Assets/Brick Project Studio/Apartment Kit/Common/Materials/Interior Exterior
+  - Assets/Brick Project Studio/Apartment Kit/Common/Materials/Misc
+  - Assets/Brick Project Studio/Apartment Kit/Common/Materials/Surface
+  - Assets/Brick Project Studio/Apartment Kit/Common/Models
+  - Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation
+  - Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Closet
+  - Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/OvenOpen
+  - Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Slide
+  - Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/TableFlip
+  - Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Windows
+  - Assets/Brick Project Studio/Apartment Kit/Common/Scripts & Animation/Z Axis -1
+  - Assets/Brick Project Studio/Apartment Kit/Common/Textures
+  - Assets/Brick Project Studio/Apartment Kit/Common/Textures/Interior Exterior
+  - Assets/Brick Project Studio/Apartment Kit/Common/Textures/Misc
+  - Assets/Brick Project Studio/Apartment Kit/Common/Textures/Surface
+  - Assets/Brick Project Studio/Apartment Kit/Scenes
+  - Assets/Brick Project Studio/Apartment Kit/Scenes/Scene_03
   - Assets/Scenes
   - Assets/Settings
-  - Assets/Settings/Scenes
-  - Packages/com.unity.2d.animation/Editor
-  - Packages/com.unity.2d.animation/Editor/Assets
-  - Packages/com.unity.2d.animation/Editor/Assets/AssetUpgrader
-  - Packages/com.unity.2d.animation/Editor/Assets/ComponentIcons
-  - Packages/com.unity.2d.animation/Editor/Assets/EditorIcons
-  - Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Dark
-  - Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Light
-  - Packages/com.unity.2d.animation/Editor/Assets/EditorIcons/Selected
-  - Packages/com.unity.2d.animation/Editor/Assets/LayoutOverlay
-  - Packages/com.unity.2d.animation/Editor/Assets/SkinningModule
-  - Packages/com.unity.2d.animation/Editor/Assets/SpriteLibraryEditor
-  - Packages/com.unity.2d.animation/Editor/Assets/SpriteSwap
-  - Packages/com.unity.2d.animation/Editor/ClipperLib
-  - Packages/com.unity.2d.animation/Editor/LayoutOverlay
-  - Packages/com.unity.2d.animation/Editor/LayoutOverlay/Manipulators
-  - Packages/com.unity.2d.animation/Editor/SkinningModule
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/Cache
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/CharacterModeTool
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/IMGUI
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/Lib
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/Lib/ARM64
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/Lib/x64
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/Lib/x86_64
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/MeshPreviewTool
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/MeshTool
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/OutlineGenerator
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/Selection
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/Selectors
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/SkeletonTool
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/SkinningCache
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/SkinningSerializer
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/SpriteBoneInfluence
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/SpriteMeshData
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/Triangulation
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/UI
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/Undo
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/VisibilityTool
-  - Packages/com.unity.2d.animation/Editor/SkinningModule/WeightsGenerator
-  - Packages/com.unity.2d.animation/Editor/SpriteLib
-  - Packages/com.unity.2d.animation/Editor/SpriteLib/SpriteLibraryEditor
-  - Packages/com.unity.2d.animation/Editor/SpriteLib/SpriteLibraryEditor/UI
-  - Packages/com.unity.2d.animation/Editor/SpriteLib/SpriteLibraryEditor/UI/CustomElements
-  - Packages/com.unity.2d.animation/Editor/SpriteLib/SpriteLibrarySourceAsset
-  - Packages/com.unity.2d.animation/Editor/SpriteLib/SpriteSwapOverlay
-  - Packages/com.unity.2d.animation/Editor/SpriteOutlineRenderer
-  - Packages/com.unity.2d.animation/Editor/SpriteSkin
-  - Packages/com.unity.2d.animation/Editor/UpgradeTools
-  - Packages/com.unity.2d.animation/Editor/UpgradeTools/UI
-  - Packages/com.unity.2d.animation/Editor/UpgradeTools/Utilities
-  - Packages/com.unity.2d.animation/IK
-  - Packages/com.unity.2d.animation/IK/Editor
-  - Packages/com.unity.2d.animation/IK/Editor/Inspectors
-  - Packages/com.unity.2d.animation/IK/Runtime
-  - Packages/com.unity.2d.animation/IK/Runtime/Culling
-  - Packages/com.unity.2d.animation/IK/Runtime/Solvers
-  - Packages/com.unity.2d.animation/Runtime
-  - Packages/com.unity.2d.animation/Runtime/BatchedDeformation
-  - Packages/com.unity.2d.animation/Runtime/SpriteLib
-  - Packages/com.unity.2d.animation/Tests
-  - Packages/com.unity.2d.animation/Tests/Editor
-  - Packages/com.unity.2d.aseprite/Editor
-  - Packages/com.unity.2d.aseprite/Editor/Aseprite
-  - Packages/com.unity.2d.aseprite/Editor/Aseprite/Chunks
-  - Packages/com.unity.2d.aseprite/Editor/AssetGeneration
-  - Packages/com.unity.2d.aseprite/Editor/Assets
-  - Packages/com.unity.2d.aseprite/Editor/Assets/UI
-  - Packages/com.unity.2d.aseprite/Editor/Common
-  - Packages/com.unity.2d.aseprite/Editor/Common/InternalBridge
-  - Packages/com.unity.2d.aseprite/Editor/Inspector
-  - Packages/com.unity.2d.aseprite/Editor/Tasks
-  - Packages/com.unity.2d.aseprite/Editor/Utilities
-  - Packages/com.unity.2d.aseprite/Tests
-  - Packages/com.unity.2d.aseprite/Tests/Editor
-  - Packages/com.unity.2d.common/Editor
-  - Packages/com.unity.2d.common/Editor/DebugTools
-  - Packages/com.unity.2d.common/Editor/ImagePacker
-  - Packages/com.unity.2d.common/Editor/ImagePacker/Jobs
-  - Packages/com.unity.2d.common/Editor/InternalBridge
-  - Packages/com.unity.2d.common/Editor/InternalBridge/Deprecated
-  - Packages/com.unity.2d.common/Editor/InternalBridge/SpriteDataProviders
-  - Packages/com.unity.2d.common/Editor/InternalBridge/TexturePlatformSettings
-  - Packages/com.unity.2d.common/Editor/ScriptablePacker
-  - Packages/com.unity.2d.common/Editor/TextureGenerator
-  - Packages/com.unity.2d.common/Path
-  - Packages/com.unity.2d.common/Path/Editor
-  - Packages/com.unity.2d.common/Path/Editor/EditablePath
-  - Packages/com.unity.2d.common/Path/Editor/EditorTool
-  - Packages/com.unity.2d.common/Path/Editor/Handles
-  - Packages/com.unity.2d.common/Path/Editor/Handles/Path
-  - Packages/com.unity.2d.common/Path/Editor/IMGUI
-  - Packages/com.unity.2d.common/Path/Editor/IMGUI/GUIFramework
-  - Packages/com.unity.2d.common/Path/Editor/Selection
-  - Packages/com.unity.2d.common/Path/Editor/Shapes
-  - Packages/com.unity.2d.common/Runtime
-  - Packages/com.unity.2d.common/Runtime/InternalBridge
-  - Packages/com.unity.2d.common/Runtime/Triangulation
-  - Packages/com.unity.2d.common/Runtime/UAi2D
-  - Packages/com.unity.2d.common/Runtime/URaster2D
-  - Packages/com.unity.2d.common/Runtime/UTess2D
-  - Packages/com.unity.2d.common/Tests
-  - Packages/com.unity.2d.common/Tests/Editor
-  - Packages/com.unity.2d.psdimporter/Editor
-  - Packages/com.unity.2d.psdimporter/Editor/Assets
-  - Packages/com.unity.2d.psdimporter/Editor/Assets/Icons
-  - Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Dark
-  - Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Light
-  - Packages/com.unity.2d.psdimporter/Editor/Assets/Icons/Selected
-  - Packages/com.unity.2d.psdimporter/Editor/Assets/UI
-  - Packages/com.unity.2d.psdimporter/Editor/PSDPlugin
-  - Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PDNWrapper
-  - Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PhotoShopFileType
-  - Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdFile
-  - Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdFile/Compression
-  - Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdFile/ImageResources
-  - Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdFile/Layers
-  - Packages/com.unity.2d.psdimporter/Editor/PSDPlugin/PsdFile/Layers/LayerInfo
-  - Packages/com.unity.2d.psdimporter/Editor/Tasks
-  - Packages/com.unity.2d.psdimporter/Editor/UTK
-  - Packages/com.unity.2d.psdimporter/Tests
-  - Packages/com.unity.2d.psdimporter/Tests/EditorTests
-  - Packages/com.unity.2d.sprite/Editor
-  - Packages/com.unity.2d.sprite/Editor/Assets
-  - Packages/com.unity.2d.sprite/Editor/Interface
-  - Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation
-  - Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets
-  - Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures
-  - Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/v2
-  - Packages/com.unity.2d.sprite/Editor/ShapeEditor
-  - Packages/com.unity.2d.sprite/Editor/SpriteEditor
-  - Packages/com.unity.2d.sprite/Editor/SpriteEditor/SpriteEditorHintPopup
-  - Packages/com.unity.2d.sprite/Editor/SpriteEditorModule
-  - Packages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule
-  - Packages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule/Overlay
-  - Packages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule/SpriteFrameEditor
-  - Packages/com.unity.2d.sprite/Editor/SpriteEditorModule/SpriteFrameModule/UndoObject
-  - Packages/com.unity.2d.sprite/Editor/UI
-  - Packages/com.unity.2d.sprite/Editor/UI/SpriteEditor
-  - Packages/com.unity.2d.sprite/Editor/Undo
-  - Packages/com.unity.2d.sprite/Tests
-  - Packages/com.unity.2d.sprite/Tests/Editor
-  - Packages/com.unity.2d.spriteshape/Editor
-  - Packages/com.unity.2d.spriteshape/Editor/Handles
-  - Packages/com.unity.2d.spriteshape/Editor/Handles/Shaders
-  - Packages/com.unity.2d.spriteshape/Editor/Icons
-  - Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation
-  - Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets
-  - Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite
-    Shape Profiles
-  - Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite
-    Shapes
-  - Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Textures
-  - Packages/com.unity.2d.spriteshape/Runtime
-  - Packages/com.unity.2d.spriteshape/Runtime/External
-  - Packages/com.unity.2d.spriteshape/Runtime/External/LibTessDotNet
-  - Packages/com.unity.2d.spriteshape/Tests
-  - Packages/com.unity.2d.spriteshape/Tests/Editor
-  - Packages/com.unity.2d.tilemap/Editor
-  - Packages/com.unity.2d.tilemap/Editor/EditorTools
-  - Packages/com.unity.2d.tilemap/Editor/EditorTools/GridSelection
-  - Packages/com.unity.2d.tilemap/Editor/Icons
-  - Packages/com.unity.2d.tilemap/Editor/ObjectCreationMenu
-  - Packages/com.unity.2d.tilemap/Editor/TileSet
-  - Packages/com.unity.2d.tilemap/Editor/UI
-  - Packages/com.unity.2d.tilemap/Editor/UI/External
-  - Packages/com.unity.2d.tilemap/Tests
-  - Packages/com.unity.2d.tilemap/Tests/Editor
-  - Packages/com.unity.2d.tilemap.extras/Editor
-  - Packages/com.unity.2d.tilemap.extras/Editor/Brushes
-  - Packages/com.unity.2d.tilemap.extras/Editor/Brushes/GameObjectBrush
-  - Packages/com.unity.2d.tilemap.extras/Editor/Brushes/GroupBrush
-  - Packages/com.unity.2d.tilemap.extras/Editor/Brushes/LineBrush
-  - Packages/com.unity.2d.tilemap.extras/Editor/Brushes/RandomBrush
-  - Packages/com.unity.2d.tilemap.extras/Editor/Menu
-  - Packages/com.unity.2d.tilemap.extras/Editor/Tiles
-  - Packages/com.unity.2d.tilemap.extras/Editor/Tiles/AnimatedTile
-  - Packages/com.unity.2d.tilemap.extras/Editor/Tiles/AutoTile
-  - Packages/com.unity.2d.tilemap.extras/Editor/Tiles/AutoTile/UI
-  - Packages/com.unity.2d.tilemap.extras/Editor/Tiles/HexagonalRuleTile
-  - Packages/com.unity.2d.tilemap.extras/Editor/Tiles/IsometricRuleTile
-  - Packages/com.unity.2d.tilemap.extras/Editor/Tiles/RuleOverrideTile
-  - Packages/com.unity.2d.tilemap.extras/Editor/Tiles/RuleTile
-  - Packages/com.unity.2d.tilemap.extras/Runtime
-  - Packages/com.unity.2d.tilemap.extras/Runtime/GridInformation
-  - Packages/com.unity.2d.tilemap.extras/Runtime/Tiles
-  - Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/AnimatedTile
-  - Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/AutoTile
-  - Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/HexagonalRuleTile
-  - Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/IsometricRuleTile
-  - Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleOverrideTile
-  - Packages/com.unity.2d.tilemap.extras/Runtime/Tiles/RuleTile
-  - Packages/com.unity.2d.tooling/Editor
-  - Packages/com.unity.2d.tooling/Editor/Insider
-  - Packages/com.unity.2d.tooling/Editor/Insider/AnalyzerWindow
-  - Packages/com.unity.2d.tooling/Editor/Insider/AnalyzerWindow/DataSourceListItem
-  - Packages/com.unity.2d.tooling/Editor/Insider/AnalyzerWindow/ReportListItem
-  - Packages/com.unity.2d.tooling/Editor/Insider/AnalyzerWindow/ReportListView
-  - Packages/com.unity.2d.tooling/Editor/Insider/Interface
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/DataSource
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/AllSpriteAtlasReport
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SourceTextureWithCompressionIssue
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SpriteAtlasIssuesContainer
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SpriteAtlasPageIssue
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SpriteAtlasTextureSpaceUsedIssue
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SpriteCountInAtlasIssue
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/SpriteWithSecondaryTextureIssue
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement/CellLabelWithIcon
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement/CommonSpriteAtlasIssueView
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement/OKCancel
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement/SpriteAtlasReportTable
-  - Packages/com.unity.2d.tooling/Editor/Insider/SpriteAtlas/SpriteAtlasIssueReport/UIElement/StyleSheet
-  - Packages/com.unity.2d.tooling/Editor/Insider/Utilities
+  - Packages/com.unity.addressables/Editor
+  - Packages/com.unity.addressables/Editor/Build
+  - Packages/com.unity.addressables/Editor/Build/AnalyzeRules
+  - Packages/com.unity.addressables/Editor/Build/BuildPipelineTasks
+  - Packages/com.unity.addressables/Editor/Build/DataBuilders
+  - Packages/com.unity.addressables/Editor/Build/Layout
+  - Packages/com.unity.addressables/Editor/BuildReportVisualizer
+  - Packages/com.unity.addressables/Editor/BuildReportVisualizer/BuildReport Resources
+  - Packages/com.unity.addressables/Editor/BuildReportVisualizer/BuildReport Resources/Icons
+  - Packages/com.unity.addressables/Editor/BuildReportVisualizer/ContentView
+  - Packages/com.unity.addressables/Editor/BuildReportVisualizer/DetailsPanel
+  - Packages/com.unity.addressables/Editor/BuildReportVisualizer/UIToolKitAssets
+  - Packages/com.unity.addressables/Editor/BuildReportVisualizer/UIToolKitAssets/StyleSheets
+  - Packages/com.unity.addressables/Editor/BuildReportVisualizer/UIToolKitAssets/UXML
+  - Packages/com.unity.addressables/Editor/BuildReportVisualizer/Utility
+  - Packages/com.unity.addressables/Editor/Diagnostics
+  - Packages/com.unity.addressables/Editor/Diagnostics/Profiler
+  - Packages/com.unity.addressables/Editor/Diagnostics/Profiler/GUIElements
+  - Packages/com.unity.addressables/Editor/Diagnostics/Profiler/UXML
+  - Packages/com.unity.addressables/Editor/GUI
+  - Packages/com.unity.addressables/Editor/GUI/GUIElements
+  - Packages/com.unity.addressables/Editor/GUI/GUIElements/StyleSheets
+  - Packages/com.unity.addressables/Editor/GUI/GUIElements/UXML
+  - Packages/com.unity.addressables/Editor/Icons
+  - Packages/com.unity.addressables/Editor/Settings
+  - Packages/com.unity.addressables/Editor/Settings/GroupSchemas
+  - Packages/com.unity.addressables/Runtime
+  - Packages/com.unity.addressables/Runtime/Initialization
+  - Packages/com.unity.addressables/Runtime/ResourceLocators
+  - Packages/com.unity.addressables/Runtime/ResourceManager
+  - Packages/com.unity.addressables/Runtime/ResourceManager/AsyncOperations
+  - Packages/com.unity.addressables/Runtime/ResourceManager/Diagnostics
+  - Packages/com.unity.addressables/Runtime/ResourceManager/Diagnostics/Profiling
+  - Packages/com.unity.addressables/Runtime/ResourceManager/ResourceLocations
+  - Packages/com.unity.addressables/Runtime/ResourceManager/ResourceProviders
+  - Packages/com.unity.addressables/Runtime/ResourceManager/ResourceProviders/Simulation
+  - Packages/com.unity.addressables/Runtime/ResourceManager/Util
+  - Packages/com.unity.addressables/Runtime/ResourceProviders
+  - Packages/com.unity.addressables/Runtime/Services
+  - Packages/com.unity.addressables/Runtime/Utility
+  - Packages/com.unity.addressables/Tests
+  - Packages/com.unity.addressables/Tests/Editor
+  - Packages/com.unity.addressables/Tests/Editor/AnalyzeRules
+  - Packages/com.unity.addressables/Tests/Editor/Build
+  - Packages/com.unity.addressables/Tests/Editor/BuildReportVisualizer
+  - Packages/com.unity.addressables/Tests/Editor/Diagnostics
+  - Packages/com.unity.addressables/Tests/Editor/Diagnostics/Profiler
+  - Packages/com.unity.addressables/Tests/Editor/DocExampleCode
+  - Packages/com.unity.addressables/Tests/Editor/DocExampleCode/ScriptReference
+  - Packages/com.unity.addressables/Tests/Editor/Expected
+  - Packages/com.unity.addressables/Tests/Editor/Fixtures
+  - Packages/com.unity.addressables/Tests/Editor/GUI
+  - Packages/com.unity.addressables/Tests/Editor/OptionalPackages
+  - Packages/com.unity.addressables/Tests/Editor/OptionalPackages/Ccd
+  - Packages/com.unity.addressables/Tests/Editor/Utility
+  - Packages/com.unity.addressables/Tests/Runtime
+  - Packages/com.unity.addressables/Tests/Runtime/Initialization
+  - Packages/com.unity.addressables/Tests/Runtime/OptionalPackages
+  - Packages/com.unity.addressables/Tests/Runtime/OptionalPackages/Ccd
+  - Packages/com.unity.addressables/Tests/Runtime/ResourceManager
+  - Packages/com.unity.addressables/Tests/Runtime/ResourceManager/Operations
+  - Packages/com.unity.addressables/Tests/Runtime/ResourceManager/TestUtil
+  - Packages/com.unity.addressables/Tests/Runtime/ResourceProviders
+  - Packages/com.unity.ai.navigation/Editor
+  - Packages/com.unity.ai.navigation/Editor/ConversionSystem
+  - Packages/com.unity.ai.navigation/Editor/Updater
+  - Packages/com.unity.ai.navigation/EditorResources
+  - Packages/com.unity.ai.navigation/EditorResources/Overlay
+  - Packages/com.unity.ai.navigation/Gizmos
+  - Packages/com.unity.ai.navigation/Runtime
+  - Packages/com.unity.ai.navigation/Tests
+  - Packages/com.unity.ai.navigation/Tests/Editor
+  - Packages/com.unity.ai.navigation/Tests/Editor/Converter
+  - Packages/com.unity.ai.navigation/Tests/Editor/Inspectors
+  - Packages/com.unity.ai.navigation/Tests/Runtime
+  - Packages/com.unity.ai.navigation/Tests/Runtime/OffMeshLinkTests
+  - Packages/com.unity.ai.navigation/Tests/Runtime/OffMeshLinkTests/SceneSetup
+  - Packages/com.unity.ai.navigation/Tests/VerifyEditorInPlaymode
   - Packages/com.unity.burst/Editor
   - Packages/com.unity.burst/Runtime
   - Packages/com.unity.burst/Runtime/CompilerServices
@@ -3021,6 +2332,40 @@ MonoBehaviour:
   - Packages/com.unity.burst/Runtime/Intrinsics/Arm
   - Packages/com.unity.burst/Runtime/Intrinsics/x86
   - Packages/com.unity.burst/Unity.Burst.CodeGen
+  - Packages/com.unity.cinemachine/Editor
+  - Packages/com.unity.cinemachine/Editor/EditorResources
+  - Packages/com.unity.cinemachine/Editor/EditorResources/Icons
+  - Packages/com.unity.cinemachine/Editor/EditorResources/Icons/Dark
+  - Packages/com.unity.cinemachine/Editor/EditorResources/Icons/Light
+  - Packages/com.unity.cinemachine/Editor/Editors
+  - Packages/com.unity.cinemachine/Editor/Impulse
+  - Packages/com.unity.cinemachine/Editor/Menus
+  - Packages/com.unity.cinemachine/Editor/Obsolete
+  - Packages/com.unity.cinemachine/Editor/PostProcessing
+  - Packages/com.unity.cinemachine/Editor/PropertyDrawers
+  - Packages/com.unity.cinemachine/Editor/Samples
+  - Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals
+  - Packages/com.unity.cinemachine/Editor/SaveDuringPlay
+  - Packages/com.unity.cinemachine/Editor/SceneView
+  - Packages/com.unity.cinemachine/Editor/Timeline
+  - Packages/com.unity.cinemachine/Editor/Upgrader
+  - Packages/com.unity.cinemachine/Editor/Utility
+  - Packages/com.unity.cinemachine/Editor/Windows
+  - Packages/com.unity.cinemachine/Presets
+  - Packages/com.unity.cinemachine/Presets/Noise
+  - Packages/com.unity.cinemachine/Runtime
+  - Packages/com.unity.cinemachine/Runtime/Behaviours
+  - Packages/com.unity.cinemachine/Runtime/Components
+  - Packages/com.unity.cinemachine/Runtime/Core
+  - Packages/com.unity.cinemachine/Runtime/Debug
+  - Packages/com.unity.cinemachine/Runtime/Deprecated
+  - Packages/com.unity.cinemachine/Runtime/Helpers
+  - Packages/com.unity.cinemachine/Runtime/Impulse
+  - Packages/com.unity.cinemachine/Runtime/Input
+  - Packages/com.unity.cinemachine/Runtime/PostProcessing
+  - Packages/com.unity.cinemachine/Runtime/SaveDuringPlay
+  - Packages/com.unity.cinemachine/Runtime/ThirdParty
+  - Packages/com.unity.cinemachine/Runtime/Timeline
   - Packages/com.unity.collections/DocCodeSamples.Tests
   - Packages/com.unity.collections/Unity.Collections
   - Packages/com.unity.collections/Unity.Collections/Jobs
@@ -3033,25 +2378,129 @@ MonoBehaviour:
   - Packages/com.unity.collections/Unity.Collections.PerformanceTests.Internal
   - Packages/com.unity.collections/Unity.Collections.Tests
   - Packages/com.unity.collections/Unity.Collections.Tests/Jobs
-  - Packages/com.unity.collections/Unity.Collections.Tests/System.IO.Hashing
-  - Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe
   - Packages/com.unity.collections/Unity.Collections.Tests.Playmode
+  - Packages/com.unity.render-pipelines.core/Editor
+  - Packages/com.unity.render-pipelines.core/Editor/Analytics
+  - Packages/com.unity.render-pipelines.core/Editor/BuildProcessors
+  - Packages/com.unity.render-pipelines.core/Editor/BuildProcessors/SettingsStrippers
+  - Packages/com.unity.render-pipelines.core/Editor/BuildProcessors/ShaderStrippers
+  - Packages/com.unity.render-pipelines.core/Editor/Camera
+  - Packages/com.unity.render-pipelines.core/Editor/CommandBuffers
+  - Packages/com.unity.render-pipelines.core/Editor/CommandBuffers/CommandBufferGenerator
+  - Packages/com.unity.render-pipelines.core/Editor/CustomRenderTexture
+  - Packages/com.unity.render-pipelines.core/Editor/Debugging
+  - Packages/com.unity.render-pipelines.core/Editor/Gizmo
+  - Packages/com.unity.render-pipelines.core/Editor/Icons
+  - Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels
+  - Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/RenderGraphViewer
+  - Packages/com.unity.render-pipelines.core/Editor/Icons/Processed
+  - Packages/com.unity.render-pipelines.core/Editor/Icons/RenderGraphViewer
+  - Packages/com.unity.render-pipelines.core/Editor/Lighting
+  - Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons
+  - Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons
+  - Packages/com.unity.render-pipelines.core/Editor/Lighting/LightUnit
+  - Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume
+  - Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI
+  - Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask
+  - Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset
+  - Packages/com.unity.render-pipelines.core/Editor/Lighting/Shadow
+  - Packages/com.unity.render-pipelines.core/Editor/LookDev
+  - Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons
+  - Packages/com.unity.render-pipelines.core/Editor/Material
+  - Packages/com.unity.render-pipelines.core/Editor/PostProcessing
+  - Packages/com.unity.render-pipelines.core/Editor/PostProcessing/LensFlareResource
+  - Packages/com.unity.render-pipelines.core/Editor/Properties
+  - Packages/com.unity.render-pipelines.core/Editor/RenderGraph
+  - Packages/com.unity.render-pipelines.core/Editor/Resources
+  - Packages/com.unity.render-pipelines.core/Editor/Resources/Gizmos
+  - Packages/com.unity.render-pipelines.core/Editor/SampleDependencyImportSystem
+  - Packages/com.unity.render-pipelines.core/Editor/Settings
+  - Packages/com.unity.render-pipelines.core/Editor/Settings/PropertyDrawers
+  - Packages/com.unity.render-pipelines.core/Editor/ShaderGenerator
+  - Packages/com.unity.render-pipelines.core/Editor/ShaderStripping
+  - Packages/com.unity.render-pipelines.core/Editor/STP
+  - Packages/com.unity.render-pipelines.core/Editor/StyleSheets
+  - Packages/com.unity.render-pipelines.core/Editor/Utilities
+  - Packages/com.unity.render-pipelines.core/Editor/UXML
+  - Packages/com.unity.render-pipelines.core/Editor/Volume
+  - Packages/com.unity.render-pipelines.core/Editor/Volume/Drawers
+  - Packages/com.unity.render-pipelines.core/Editor-PrivateShared
+  - Packages/com.unity.render-pipelines.core/Runtime
+  - Packages/com.unity.render-pipelines.core/Runtime/Camera
+  - Packages/com.unity.render-pipelines.core/Runtime/CommandBuffers
+  - Packages/com.unity.render-pipelines.core/Runtime/Common
+  - Packages/com.unity.render-pipelines.core/Runtime/Debug
+  - Packages/com.unity.render-pipelines.core/Runtime/Debugging
+  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/FrameTiming
+  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs
+  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts
+  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources
+  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Scripts
+  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures
+  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets
+  - Packages/com.unity.render-pipelines.core/Runtime/GPUDriven
+  - Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/Components
+  - Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/Debug
+  - Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/InstanceData
+  - Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/Utilities
+  - Packages/com.unity.render-pipelines.core/Runtime/Inputs
+  - Packages/com.unity.render-pipelines.core/Runtime/Lighting
+  - Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume
+  - Packages/com.unity.render-pipelines.core/Runtime/Lights
+  - Packages/com.unity.render-pipelines.core/Runtime/LookDev
+  - Packages/com.unity.render-pipelines.core/Runtime/PostProcessing
+  - Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/Shaders
+  - Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/Shaders/ffx
+  - Packages/com.unity.render-pipelines.core/Runtime/RenderGraph
+  - Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Compiler
+  - Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Debug
+  - Packages/com.unity.render-pipelines.core/Runtime/RenderPipeline
+  - Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources
+  - Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven
+  - Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh
+  - Packages/com.unity.render-pipelines.core/Runtime/Settings
+  - Packages/com.unity.render-pipelines.core/Runtime/ShaderGenerator
+  - Packages/com.unity.render-pipelines.core/Runtime/ShaderLibrary
+  - Packages/com.unity.render-pipelines.core/Runtime/ShaderLibrary/Sampling
+  - Packages/com.unity.render-pipelines.core/Runtime/STP
+  - Packages/com.unity.render-pipelines.core/Runtime/Stripping
+  - Packages/com.unity.render-pipelines.core/Runtime/Textures
+  - Packages/com.unity.render-pipelines.core/Runtime/Utilities
+  - Packages/com.unity.render-pipelines.core/Runtime/Utilities/GPUPrefixSum
+  - Packages/com.unity.render-pipelines.core/Runtime/Utilities/GPUSort
+  - Packages/com.unity.render-pipelines.core/Runtime/Volume
+  - Packages/com.unity.render-pipelines.core/Runtime/XR
+  - Packages/com.unity.render-pipelines.core/Runtime-PrivateShared
+  - Packages/com.unity.render-pipelines.core/ShaderLibrary
+  - Packages/com.unity.render-pipelines.core/ShaderLibrary/API
+  - Packages/com.unity.render-pipelines.core/ShaderLibrary/Sampling
+  - Packages/com.unity.render-pipelines.core/ShaderLibrary/Shadow
+  - Packages/com.unity.render-pipelines.core/Shaders
+  - Packages/com.unity.render-pipelines.core/Tests
+  - Packages/com.unity.render-pipelines.core/Tests/Editor
+  - Packages/com.unity.render-pipelines.core/Tests/Editor/Analytics
+  - Packages/com.unity.render-pipelines.core/Tests/Editor/Debugging
+  - Packages/com.unity.render-pipelines.core/Tests/Editor/GPUDriven
+  - Packages/com.unity.render-pipelines.core/Tests/Editor/RenderPipeline
+  - Packages/com.unity.render-pipelines.core/Tests/Editor/RenderPipeline/SettingsStrippingResults
+  - Packages/com.unity.render-pipelines.core/Tests/Editor/ShaderStripping
+  - Packages/com.unity.render-pipelines.core/Tests/Editor/ShaderStripping/Results
+  - Packages/com.unity.render-pipelines.core/Tests/Editor/Utilities
+  - Packages/com.unity.render-pipelines.core/Tests/Editor/Volumes
+  - Packages/com.unity.render-pipelines.core/Tests/Editor/XR
+  - Packages/com.unity.render-pipelines.core/Tests/Runtime
+  - Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading
   - Packages/com.unity.ext.nunit/net40
   - Packages/com.unity.ext.nunit/net40/unity-custom
   - Packages/com.compilerdestroyer.editortools/Editor
-  - Packages/com.compilerdestroyer.editortools/Editor/Documentation
   - Packages/com.compilerdestroyer.editortools/Editor/Global Variables
   - Packages/com.compilerdestroyer.editortools/Editor/Libraries
   - Packages/com.compilerdestroyer.editortools/Editor/Libraries/Attributes
   - Packages/com.compilerdestroyer.editortools/Editor/Libraries/UIElements
+  - Packages/com.compilerdestroyer.editortools/Editor/Project Management
   - Packages/com.compilerdestroyer.editortools/Editor/Projects
-  - Packages/com.compilerdestroyer.editortools/Editor/Settings
   - Packages/com.compilerdestroyer.editortools/Editor/Tools
-  - Packages/com.compilerdestroyer.editortools/Editor/Tools/2D
-  - Packages/com.compilerdestroyer.editortools/Editor/Tools/3D
-  - Packages/com.compilerdestroyer.editortools/Editor/Utilities
-  - Packages/com.compilerdestroyer.editortools/Runtime
-  - Packages/com.compilerdestroyer.editortools/Runtime/Attributes
+  - Packages/com.compilerdestroyer.editortools/Editor/Tools/Package Initializer
   - Packages/com.compilerdestroyer.editorvisual/Editor
   - Packages/com.compilerdestroyer.editorvisual/Editor/Editor Visual UIElements
   - Packages/com.compilerdestroyer.editorvisual/Editor/Project Management
@@ -3138,6 +2587,8 @@ MonoBehaviour:
   - Packages/com.unity.inputsystem/Tests
   - Packages/com.unity.inputsystem/Tests/IntegrationTests
   - Packages/com.unity.inputsystem/Tests/TestFixture
+  - Packages/com.leth.instantpipes/Editor
+  - Packages/com.leth.instantpipes/Runtime
   - Packages/com.unity.mathematics/Tests
   - Packages/com.unity.mathematics/Tests/Properties
   - Packages/com.unity.mathematics/Tests/Tests
@@ -3149,20 +2600,6 @@ MonoBehaviour:
   - Packages/com.unity.mathematics/Unity.Mathematics.Editor
   - Packages/com.unity.nuget.mono-cecil/Tests
   - Packages/com.unity.nuget.mono-cecil/Tests/Editor
-  - Packages/com.unity.multiplayer.center/Common
-  - Packages/com.unity.multiplayer.center/Editor
-  - Packages/com.unity.multiplayer.center/Editor/Analytics
-  - Packages/com.unity.multiplayer.center/Editor/Features
-  - Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow
-  - Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI
-  - Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/Icons
-  - Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow/UI/RecommendationView
-  - Packages/com.unity.multiplayer.center/Editor/OnBoarding
-  - Packages/com.unity.multiplayer.center/Editor/Questionnaire
-  - Packages/com.unity.multiplayer.center/Editor/Recommendations
-  - Packages/com.unity.multiplayer.center/Tests
-  - Packages/com.unity.multiplayer.center/Tests/Editor
-  - Packages/com.unity.multiplayer.center/Tests/Runtime
   - Packages/com.unity.test-framework.performance/Editor
   - Packages/com.unity.test-framework.performance/Editor/TestReportGraph
   - Packages/com.unity.test-framework.performance/Editor/UIElements
@@ -3172,160 +2609,24 @@ MonoBehaviour:
   - Packages/com.unity.test-framework.performance/Runtime/Measurements
   - Packages/com.unity.test-framework.performance/Runtime/Meters
   - Packages/com.unity.test-framework.performance/Runtime/Statistics
-  - Packages/com.unity.render-pipelines.core/Editor
-  - Packages/com.unity.render-pipelines.core/Editor/Analytics
-  - Packages/com.unity.render-pipelines.core/Editor/BuildProcessors
-  - Packages/com.unity.render-pipelines.core/Editor/BuildProcessors/SettingsStrippers
-  - Packages/com.unity.render-pipelines.core/Editor/BuildProcessors/ShaderStrippers
-  - Packages/com.unity.render-pipelines.core/Editor/Camera
-  - Packages/com.unity.render-pipelines.core/Editor/CommandBuffers
-  - Packages/com.unity.render-pipelines.core/Editor/CommandBuffers/CommandBufferGenerator
-  - Packages/com.unity.render-pipelines.core/Editor/Controls
-  - Packages/com.unity.render-pipelines.core/Editor/CustomRenderTexture
-  - Packages/com.unity.render-pipelines.core/Editor/Debugging
-  - Packages/com.unity.render-pipelines.core/Editor/Gizmo
-  - Packages/com.unity.render-pipelines.core/Editor/Icons
-  - Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels
-  - Packages/com.unity.render-pipelines.core/Editor/Icons/MipLevels/RenderGraphViewer
-  - Packages/com.unity.render-pipelines.core/Editor/Icons/Processed
-  - Packages/com.unity.render-pipelines.core/Editor/Icons/RenderGraphViewer
-  - Packages/com.unity.render-pipelines.core/Editor/Lighting
-  - Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons
-  - Packages/com.unity.render-pipelines.core/Editor/Lighting/Icons/LightUnitIcons
-  - Packages/com.unity.render-pipelines.core/Editor/Lighting/LightUnit
-  - Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume
-  - Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/DynamicGI
-  - Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/RenderingLayerMask
-  - Packages/com.unity.render-pipelines.core/Editor/Lighting/ProbeVolume/VirtualOffset
-  - Packages/com.unity.render-pipelines.core/Editor/Lighting/Shadow
-  - Packages/com.unity.render-pipelines.core/Editor/LookDev
-  - Packages/com.unity.render-pipelines.core/Editor/LookDev/Icons
-  - Packages/com.unity.render-pipelines.core/Editor/Material
-  - Packages/com.unity.render-pipelines.core/Editor/PathTracing
-  - Packages/com.unity.render-pipelines.core/Editor/PathTracing/Debugging
-  - Packages/com.unity.render-pipelines.core/Editor/PostProcessing
-  - Packages/com.unity.render-pipelines.core/Editor/PostProcessing/LensFlareResource
-  - Packages/com.unity.render-pipelines.core/Editor/Properties
-  - Packages/com.unity.render-pipelines.core/Editor/PropertyDrawers
-  - Packages/com.unity.render-pipelines.core/Editor/RenderGraph
-  - Packages/com.unity.render-pipelines.core/Editor/Resources
-  - Packages/com.unity.render-pipelines.core/Editor/Resources/Gizmos
-  - Packages/com.unity.render-pipelines.core/Editor/SampleDependencyImportSystem
-  - Packages/com.unity.render-pipelines.core/Editor/ScriptTemplates
-  - Packages/com.unity.render-pipelines.core/Editor/Settings
-  - Packages/com.unity.render-pipelines.core/Editor/Settings/PropertyDrawers
-  - Packages/com.unity.render-pipelines.core/Editor/ShaderGenerator
-  - Packages/com.unity.render-pipelines.core/Editor/ShaderStripping
-  - Packages/com.unity.render-pipelines.core/Editor/STP
-  - Packages/com.unity.render-pipelines.core/Editor/StyleSheets
-  - Packages/com.unity.render-pipelines.core/Editor/Tools
-  - Packages/com.unity.render-pipelines.core/Editor/Tools/MaterialUpgrader
-  - Packages/com.unity.render-pipelines.core/Editor/UnifiedRayTracing
-  - Packages/com.unity.render-pipelines.core/Editor/Upscaling
-  - Packages/com.unity.render-pipelines.core/Editor/Utilities
-  - Packages/com.unity.render-pipelines.core/Editor/UXML
-  - Packages/com.unity.render-pipelines.core/Editor/Volume
-  - Packages/com.unity.render-pipelines.core/Editor/Volume/Drawers
-  - Packages/com.unity.render-pipelines.core/Editor-PrivateShared
-  - Packages/com.unity.render-pipelines.core/Editor-PrivateShared/AssetCallbacks
-  - Packages/com.unity.render-pipelines.core/Editor-PrivateShared/Tools
-  - Packages/com.unity.render-pipelines.core/Editor-PrivateShared/Tools/Converter
-  - Packages/com.unity.render-pipelines.core/Editor-PrivateShared/Tools/Converter/Window
-  - Packages/com.unity.render-pipelines.core/Runtime
-  - Packages/com.unity.render-pipelines.core/Runtime/Camera
-  - Packages/com.unity.render-pipelines.core/Runtime/CommandBuffers
-  - Packages/com.unity.render-pipelines.core/Runtime/Common
-  - Packages/com.unity.render-pipelines.core/Runtime/Debug
-  - Packages/com.unity.render-pipelines.core/Runtime/Debugging
-  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/FrameTiming
-  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs
-  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Fonts
-  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Resources
-  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Scripts
-  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Textures
-  - Packages/com.unity.render-pipelines.core/Runtime/Debugging/Prefabs/Widgets
-  - Packages/com.unity.render-pipelines.core/Runtime/GPUDriven
-  - Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/Components
-  - Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/Debug
-  - Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/InstanceData
-  - Packages/com.unity.render-pipelines.core/Runtime/GPUDriven/Utilities
-  - Packages/com.unity.render-pipelines.core/Runtime/Inputs
-  - Packages/com.unity.render-pipelines.core/Runtime/Lighting
-  - Packages/com.unity.render-pipelines.core/Runtime/Lighting/ProbeVolume
-  - Packages/com.unity.render-pipelines.core/Runtime/Lighting/SurfaceCache
-  - Packages/com.unity.render-pipelines.core/Runtime/Lights
-  - Packages/com.unity.render-pipelines.core/Runtime/LookDev
-  - Packages/com.unity.render-pipelines.core/Runtime/PathTracing
-  - Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Core
-  - Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Environment
-  - Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Lightmapping
-  - Packages/com.unity.render-pipelines.core/Runtime/PathTracing/MaterialPool
-  - Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Meshes
-  - Packages/com.unity.render-pipelines.core/Runtime/PathTracing/RenderPipeline
-  - Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders
-  - Packages/com.unity.render-pipelines.core/Runtime/PathTracing/Shaders/Lightmapping
-  - Packages/com.unity.render-pipelines.core/Runtime/PostProcessing
-  - Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/Shaders
-  - Packages/com.unity.render-pipelines.core/Runtime/PostProcessing/Shaders/ffx
-  - Packages/com.unity.render-pipelines.core/Runtime/RenderGraph
-  - Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Compiler
-  - Packages/com.unity.render-pipelines.core/Runtime/RenderGraph/Debug
-  - Packages/com.unity.render-pipelines.core/Runtime/RenderPipeline
-  - Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources
-  - Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/GPUDriven
-  - Packages/com.unity.render-pipelines.core/Runtime/RenderPipelineResources/Mesh
-  - Packages/com.unity.render-pipelines.core/Runtime/Sampling
-  - Packages/com.unity.render-pipelines.core/Runtime/Sampling/Textures
-  - Packages/com.unity.render-pipelines.core/Runtime/Sampling/Textures/SobolBlueNoise
-  - Packages/com.unity.render-pipelines.core/Runtime/Settings
-  - Packages/com.unity.render-pipelines.core/Runtime/ShaderGenerator
-  - Packages/com.unity.render-pipelines.core/Runtime/ShaderLibrary
-  - Packages/com.unity.render-pipelines.core/Runtime/ShaderLibrary/Sampling
-  - Packages/com.unity.render-pipelines.core/Runtime/STP
-  - Packages/com.unity.render-pipelines.core/Runtime/Stripping
-  - Packages/com.unity.render-pipelines.core/Runtime/Textures
-  - Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing
-  - Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common
-  - Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/GeometryPool
-  - Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Common/Utilities
-  - Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute
-  - Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays
-  - Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels
-  - Packages/com.unity.render-pipelines.core/Runtime/UnifiedRayTracing/Hardware
-  - Packages/com.unity.render-pipelines.core/Runtime/Upscaling
-  - Packages/com.unity.render-pipelines.core/Runtime/Utilities
-  - Packages/com.unity.render-pipelines.core/Runtime/Utilities/GPUPrefixSum
-  - Packages/com.unity.render-pipelines.core/Runtime/Utilities/GPUSort
-  - Packages/com.unity.render-pipelines.core/Runtime/Volume
-  - Packages/com.unity.render-pipelines.core/Runtime/Vrs
-  - Packages/com.unity.render-pipelines.core/Runtime/Vrs/Shaders
-  - Packages/com.unity.render-pipelines.core/Runtime/XR
-  - Packages/com.unity.render-pipelines.core/Runtime-PrivateShared
-  - Packages/com.unity.render-pipelines.core/Runtime-PrivateShared/InternalBridge
-  - Packages/com.unity.render-pipelines.core/ShaderLibrary
-  - Packages/com.unity.render-pipelines.core/ShaderLibrary/API
-  - Packages/com.unity.render-pipelines.core/ShaderLibrary/Sampling
-  - Packages/com.unity.render-pipelines.core/ShaderLibrary/Shadow
-  - Packages/com.unity.render-pipelines.core/Shaders
-  - Packages/com.unity.render-pipelines.core/Tests
-  - Packages/com.unity.render-pipelines.core/Tests/Editor
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/Analytics
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/Debugging
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/GPUDriven
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/PathTracing
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/RenderPipeline
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/RenderPipeline/SettingsStrippingResults
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/ShaderStripping
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/ShaderStripping/Results
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/Tools
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/Tools/MaterialUpgrader
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/UnifiedRayTracing
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/Utilities
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/Volumes
-  - Packages/com.unity.render-pipelines.core/Tests/Editor/XR
-  - Packages/com.unity.render-pipelines.core/Tests/Runtime
-  - Packages/com.unity.render-pipelines.core/Tests/Runtime/PathTracing
-  - Packages/com.unity.render-pipelines.core/Tests/Runtime/Threading
+  - Packages/com.unity.scriptablebuildpipeline/Editor
+  - Packages/com.unity.scriptablebuildpipeline/Editor/Injector
+  - Packages/com.unity.scriptablebuildpipeline/Editor/Interfaces
+  - Packages/com.unity.scriptablebuildpipeline/Editor/Profiler
+  - Packages/com.unity.scriptablebuildpipeline/Editor/Shared
+  - Packages/com.unity.scriptablebuildpipeline/Editor/Tasks
+  - Packages/com.unity.scriptablebuildpipeline/Editor/Utilities
+  - Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/USerialize
+  - Packages/com.unity.scriptablebuildpipeline/Editor/Utilities/USerializeTools
+  - Packages/com.unity.scriptablebuildpipeline/Editor/WriteTypes
+  - Packages/com.unity.scriptablebuildpipeline/Runtime
+  - Packages/com.unity.scriptablebuildpipeline/Runtime/Shared
+  - Packages/com.unity.scriptablebuildpipeline/Tests
+  - Packages/com.unity.scriptablebuildpipeline/Tests/Editor
+  - Packages/com.unity.scriptablebuildpipeline/Tests/Editor/Build
+  - Packages/com.unity.scriptablebuildpipeline/Tests/Editor/OptionalPackages
+  - Packages/com.unity.scriptablebuildpipeline/Tests/Runtime
+  - Packages/com.unity.scriptablebuildpipeline/Tests/Runtime/TestAssets
   - Packages/com.unity.searcher/Editor
   - Packages/com.unity.searcher/Editor/Resources
   - Packages/com.unity.searcher/Editor/Resources/FlatSkin
@@ -3333,6 +2634,10 @@ MonoBehaviour:
   - Packages/com.unity.searcher/Editor/Searcher
   - Packages/com.unity.searcher/Tests
   - Packages/com.unity.searcher/Tests/Editor
+  - Packages/com.unity.settings-manager/Content
+  - Packages/com.unity.settings-manager/Editor
+  - Packages/com.unity.settings-manager/Tests
+  - Packages/com.unity.settings-manager/Tests/Editor
   - Packages/com.unity.shadergraph/Editor
   - Packages/com.unity.shadergraph/Editor/AssetCallbacks
   - Packages/com.unity.shadergraph/Editor/Data
@@ -3362,7 +2667,6 @@ MonoBehaviour:
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/PBR
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Scene
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/Texture
-  - Packages/com.unity.shadergraph/Editor/Data/Nodes/Input/UI
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Math
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Advanced
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Math/Basic
@@ -3378,8 +2682,6 @@ MonoBehaviour:
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Procedural
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Procedural/Noise
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Procedural/Shape
-  - Packages/com.unity.shadergraph/Editor/Data/Nodes/Terrain
-  - Packages/com.unity.shadergraph/Editor/Data/Nodes/UI
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Utility
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/Utility/Logic
   - Packages/com.unity.shadergraph/Editor/Data/Nodes/UV
@@ -3392,6 +2694,7 @@ MonoBehaviour:
   - Packages/com.unity.shadergraph/Editor/Drawing/Controls
   - Packages/com.unity.shadergraph/Editor/Drawing/Inspector
   - Packages/com.unity.shadergraph/Editor/Drawing/Inspector/PropertyDrawers
+  - Packages/com.unity.shadergraph/Editor/Drawing/Inspector/TabbedView
   - Packages/com.unity.shadergraph/Editor/Drawing/Interfaces
   - Packages/com.unity.shadergraph/Editor/Drawing/Manipulators
   - Packages/com.unity.shadergraph/Editor/Drawing/MaterialEditor
@@ -3427,15 +2730,10 @@ MonoBehaviour:
   - Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen
   - Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen/Includes
   - Packages/com.unity.shadergraph/Editor/Generation/Targets/Fullscreen/Templates
-  - Packages/com.unity.shadergraph/Editor/Generation/Targets/Terrain
-  - Packages/com.unity.shadergraph/Editor/Generation/Targets/Terrain/Includes
-  - Packages/com.unity.shadergraph/Editor/Generation/Targets/UITK
-  - Packages/com.unity.shadergraph/Editor/Generation/Targets/UITK/Templates
   - Packages/com.unity.shadergraph/Editor/Generation/Templates
   - Packages/com.unity.shadergraph/Editor/Generation/Utils
   - Packages/com.unity.shadergraph/Editor/Importers
   - Packages/com.unity.shadergraph/Editor/Interface
-  - Packages/com.unity.shadergraph/Editor/InternalBridge
   - Packages/com.unity.shadergraph/Editor/Resources
   - Packages/com.unity.shadergraph/Editor/Resources/GraphView
   - Packages/com.unity.shadergraph/Editor/Resources/GraphView/Nodes
@@ -3449,19 +2747,31 @@ MonoBehaviour:
   - Packages/com.unity.shadergraph/Editor/ShaderGUI
   - Packages/com.unity.shadergraph/Editor/Util
   - Packages/com.unity.shadergraph/Editor/Utilities
-  - Packages/com.unity.shadergraph/GraphTemplates
-  - Packages/com.unity.shadergraph/GraphTemplates/BuiltIn
-  - Packages/com.unity.shadergraph/GraphTemplates/Cross Pipeline
-  - Packages/com.unity.shadergraph/GraphTemplates/Subgraphs
-  - Packages/com.unity.shadergraph/GraphTemplates/Subgraphs/Terrain
   - Packages/com.unity.shadergraph/ShaderGraphLibrary
   - Packages/com.unity.shadergraph/ShaderGraphLibrary/Nature
   - Packages/com.unity.shadergraph/Tests
   - Packages/com.unity.shadergraph/Tests/Editor
   - Packages/com.unity.shadergraph/Tests/Editor/IntegrationTests
   - Packages/com.unity.shadergraph/Tests/Editor/UnitTests
-  - Packages/com.unity.test-framework/Tests
-  - Packages/com.unity.test-framework/Tests/TestNewCustomAssembly
+  - Packages/com.unity.splines/Editor
+  - Packages/com.unity.splines/Editor/Components
+  - Packages/com.unity.splines/Editor/Controls
+  - Packages/com.unity.splines/Editor/Core
+  - Packages/com.unity.splines/Editor/GUI
+  - Packages/com.unity.splines/Editor/GUI/Editors
+  - Packages/com.unity.splines/Editor/GUI/ToolbarsOverlays
+  - Packages/com.unity.splines/Editor/Resources
+  - Packages/com.unity.splines/Editor/Resources/Icons
+  - Packages/com.unity.splines/Editor/Resources/Overlays
+  - Packages/com.unity.splines/Editor/Resources/Overlays/UXML
+  - Packages/com.unity.splines/Editor/Resources/Textures
+  - Packages/com.unity.splines/Editor/Resources/UI
+  - Packages/com.unity.splines/Editor/Resources/UI/UXML
+  - Packages/com.unity.splines/Editor/Stylesheets
+  - Packages/com.unity.splines/Editor/Tools
+  - Packages/com.unity.splines/Editor/Utilities
+  - Packages/com.unity.splines/Runtime
+  - Packages/com.unity.splines/Shader
   - Packages/com.unity.test-framework/UnityEditor.TestRunner
   - Packages/com.unity.test-framework/UnityEditor.TestRunner/Api
   - Packages/com.unity.test-framework/UnityEditor.TestRunner/Api/Analytics
@@ -3536,7 +2846,6 @@ MonoBehaviour:
   - Packages/com.unity.timeline/Editor/Playables
   - Packages/com.unity.timeline/Editor/Properties
   - Packages/com.unity.timeline/Editor/Recording
-  - Packages/com.unity.timeline/Editor/Samples
   - Packages/com.unity.timeline/Editor/Signals
   - Packages/com.unity.timeline/Editor/Signals/TreeView
   - Packages/com.unity.timeline/Editor/State
@@ -3575,9 +2884,24 @@ MonoBehaviour:
   - Packages/com.unity.timeline/Runtime/Properties
   - Packages/com.unity.timeline/Runtime/Scripting
   - Packages/com.unity.timeline/Runtime/Utilities
+  - Packages/com.unity.rendering.light-transport/Editor
+  - Packages/com.unity.rendering.light-transport/Runtime
+  - Packages/com.unity.rendering.light-transport/Runtime/Sampling
+  - Packages/com.unity.rendering.light-transport/Runtime/Sampling/Textures
+  - Packages/com.unity.rendering.light-transport/Runtime/Sampling/Textures/SobolBlueNoise
+  - Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing
+  - Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Common
+  - Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Common/GeometryPool
+  - Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Common/Utilities
+  - Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Compute
+  - Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Compute/RadeonRays
+  - Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Compute/RadeonRays/kernels
+  - Packages/com.unity.rendering.light-transport/Runtime/UnifiedRayTracing/Hardware
+  - Packages/com.unity.rendering.light-transport/Tests
+  - Packages/com.unity.rendering.light-transport/Tests/Editor
+  - Packages/com.unity.rendering.light-transport/Tests/Editor/UnifiedRayTracing
+  - Packages/com.unity.profiling.core/Runtime
   - Packages/com.unity.ugui/Editor
-  - Packages/com.unity.ugui/Editor/Analytics
-  - Packages/com.unity.ugui/Editor/Analytics/IAnalytic
   - Packages/com.unity.ugui/Editor/TMP
   - Packages/com.unity.ugui/Editor/TMP/HDRP
   - Packages/com.unity.ugui/Editor/TMP/PropertyDrawers
@@ -3592,7 +2916,6 @@ MonoBehaviour:
   - Packages/com.unity.ugui/Editor Resources/Textures
   - Packages/com.unity.ugui/Package Resources
   - Packages/com.unity.ugui/Runtime
-  - Packages/com.unity.ugui/Runtime/InternalBridge
   - Packages/com.unity.ugui/Runtime/TMP
   - Packages/com.unity.ugui/Runtime/UGUI
   - Packages/com.unity.ugui/Runtime/UGUI/EventSystem
@@ -3612,7 +2935,6 @@ MonoBehaviour:
   - Packages/com.unity.ugui/Runtime/UGUI/UI/Core/VertexModifiers
   - Packages/com.unity.ugui/Tests
   - Packages/com.unity.ugui/Tests/Editor
-  - Packages/com.unity.ugui/Tests/Editor/Common
   - Packages/com.unity.ugui/Tests/Editor/TMP
   - Packages/com.unity.ugui/Tests/Editor/UGUI
   - Packages/com.unity.ugui/Tests/Editor/UGUI/Canvas
@@ -3631,7 +2953,6 @@ MonoBehaviour:
   - Packages/com.unity.ugui/Tests/Runtime/UGUI
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/Button
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/Canvas
-  - Packages/com.unity.ugui/Tests/Runtime/UGUI/CanvasRenderer
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/Dropdown
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/EventSystem
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/EventSystem/InputModuleTests
@@ -3642,7 +2963,6 @@ MonoBehaviour:
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/LayoutGroup
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/MaskClipping
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/NestedLayout
-  - Packages/com.unity.ugui/Tests/Runtime/UGUI/RawImage
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/ScrollBar
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/ScrollRect
   - Packages/com.unity.ugui/Tests/Runtime/UGUI/Slider
@@ -3653,7 +2973,6 @@ MonoBehaviour:
   - Packages/com.unity.render-pipelines.universal/Editor/2D
   - Packages/com.unity.render-pipelines.universal/Editor/2D/Converter
   - Packages/com.unity.render-pipelines.universal/Editor/2D/LightBatchingDebugger
-  - Packages/com.unity.render-pipelines.universal/Editor/2D/Overrides
   - Packages/com.unity.render-pipelines.universal/Editor/2D/Resources
   - Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/InspectorIcons
   - Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons
@@ -3664,12 +2983,24 @@ MonoBehaviour:
   - Packages/com.unity.render-pipelines.universal/Editor/2D/ShaderGraph/Targets
   - Packages/com.unity.render-pipelines.universal/Editor/2D/Shadows
   - Packages/com.unity.render-pipelines.universal/Editor/2D/Shadows/ShadowProvider
+  - Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor
+  - Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/EditablePath
+  - Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/EditorTool
+  - Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/GUIFramework
+  - Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources
+  - Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Resources/Path
+  - Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Selection
+  - Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/Shapes
+  - Packages/com.unity.render-pipelines.universal/Editor/2D/ShapeEditor/View
   - Packages/com.unity.render-pipelines.universal/Editor/Analytics
   - Packages/com.unity.render-pipelines.universal/Editor/AssetPostProcessors
   - Packages/com.unity.render-pipelines.universal/Editor/BuildProcessors
   - Packages/com.unity.render-pipelines.universal/Editor/BuildProcessors/GraphicsSettingsStrippers
   - Packages/com.unity.render-pipelines.universal/Editor/Camera
   - Packages/com.unity.render-pipelines.universal/Editor/Converter
+  - Packages/com.unity.render-pipelines.universal/Editor/Converter/Converters
+  - Packages/com.unity.render-pipelines.universal/Editor/Converter/PPv2
+  - Packages/com.unity.render-pipelines.universal/Editor/Converter/PPv2/EffectConverters
   - Packages/com.unity.render-pipelines.universal/Editor/Decal
   - Packages/com.unity.render-pipelines.universal/Editor/Decal/Resources
   - Packages/com.unity.render-pipelines.universal/Editor/DefaultScene
@@ -3679,31 +3010,19 @@ MonoBehaviour:
   - Packages/com.unity.render-pipelines.universal/Editor/Overrides/Shaders
   - Packages/com.unity.render-pipelines.universal/Editor/RendererFeatures
   - Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates
-  - Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Indoors
-  - Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Materials
   - Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard
-  - Packages/com.unity.render-pipelines.universal/Editor/ScriptTemplates
+  - Packages/com.unity.render-pipelines.universal/Editor/SceneTemplates/Standard/Materials
   - Packages/com.unity.render-pipelines.universal/Editor/Settings
   - Packages/com.unity.render-pipelines.universal/Editor/Settings/PropertyDrawers
   - Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph
   - Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/AssetCallbacks
-  - Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates
-  - Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/GraphTemplates/2D
   - Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes
-  - Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Includes/Terrain
   - Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Nodes
   - Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Targets
   - Packages/com.unity.render-pipelines.universal/Editor/ShaderGraph/Templates
   - Packages/com.unity.render-pipelines.universal/Editor/ShaderGUI
   - Packages/com.unity.render-pipelines.universal/Editor/ShaderGUI/Shaders
   - Packages/com.unity.render-pipelines.universal/Editor/ShaderGUI/ShadingModels
-  - Packages/com.unity.render-pipelines.universal/Editor/Terrain
-  - Packages/com.unity.render-pipelines.universal/Editor/Tools
-  - Packages/com.unity.render-pipelines.universal/Editor/Tools/Converters
-  - Packages/com.unity.render-pipelines.universal/Editor/Tools/Converters/PPv2
-  - Packages/com.unity.render-pipelines.universal/Editor/Tools/Converters/PPv2/EffectConverters
-  - Packages/com.unity.render-pipelines.universal/Editor/Tools/Converters/ReadonlyMaterialConverter
-  - Packages/com.unity.render-pipelines.universal/Editor/Tools/MaterialUpgrader
   - Packages/com.unity.render-pipelines.universal/Editor/UniversalRenderPipelineAsset
   - Packages/com.unity.render-pipelines.universal/Editor/VFXGraph
   - Packages/com.unity.render-pipelines.universal/Editor/VFXGraph/Shaders
@@ -3720,7 +3039,8 @@ MonoBehaviour:
   - Packages/com.unity.render-pipelines.universal/Editor/Volume
   - Packages/com.unity.render-pipelines.universal/Runtime
   - Packages/com.unity.render-pipelines.universal/Runtime/2D
-  - Packages/com.unity.render-pipelines.universal/Runtime/2D/FrameData
+  - Packages/com.unity.render-pipelines.universal/Runtime/2D/Data
+  - Packages/com.unity.render-pipelines.universal/Runtime/2D/Data/Textures
   - Packages/com.unity.render-pipelines.universal/Runtime/2D/Passes
   - Packages/com.unity.render-pipelines.universal/Runtime/2D/Passes/Utility
   - Packages/com.unity.render-pipelines.universal/Runtime/2D/RendererFeatures
@@ -3743,9 +3063,8 @@ MonoBehaviour:
   - Packages/com.unity.render-pipelines.universal/Runtime/Memory
   - Packages/com.unity.render-pipelines.universal/Runtime/Overrides
   - Packages/com.unity.render-pipelines.universal/Runtime/Passes
-  - Packages/com.unity.render-pipelines.universal/Runtime/Passes/PostProcess
   - Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures
-  - Packages/com.unity.render-pipelines.universal/Runtime/RendererFeatures/SurfaceCacheGIRendererFeature
+  - Packages/com.unity.render-pipelines.universal/Runtime/RenderGraph
   - Packages/com.unity.render-pipelines.universal/Runtime/RenderPipelineResources
   - Packages/com.unity.render-pipelines.universal/Runtime/Settings
   - Packages/com.unity.render-pipelines.universal/Runtime/Tiling
@@ -3771,9 +3090,6 @@ MonoBehaviour:
   - Packages/com.unity.render-pipelines.universal/Tests
   - Packages/com.unity.render-pipelines.universal/Tests/Editor
   - Packages/com.unity.render-pipelines.universal/Tests/Editor/PostProcessDataTests
-  - Packages/com.unity.render-pipelines.universal/Tests/Editor/Tools
-  - Packages/com.unity.render-pipelines.universal/Tests/Editor/Tools/Converters
-  - Packages/com.unity.render-pipelines.universal/Tests/Editor/Tools/Converters/ReadonlyMaterialConverter
   - Packages/com.unity.render-pipelines.universal/Tests/Editor/URPGlobalSettingsMigrationTests
   - Packages/com.unity.render-pipelines.universal/Tests/Runtime
   - Packages/com.unity.render-pipelines.universal/Textures
@@ -3792,9 +3108,27 @@ MonoBehaviour:
   - Packages/com.unity.ide.visualstudio/Editor/COMIntegration
   - Packages/com.unity.ide.visualstudio/Editor/COMIntegration/Release
   - Packages/com.unity.ide.visualstudio/Editor/Messaging
+  - Packages/com.unity.ide.visualstudio/Editor/Plugins
   - Packages/com.unity.ide.visualstudio/Editor/ProjectGeneration
   - Packages/com.unity.ide.visualstudio/Editor/Testing
   - Packages/com.unity.ide.visualstudio/Editor/VSWhere
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderIconsSettings.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderIconsPostproccesor.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Management/SettingsWindow.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/UtilityFunctions.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/HeaderFunctions.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Management/GlobalVariables.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Management/ProjectInstalled.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/ProjectConstants.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderPopupWindowContent.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Editor Visual UIElements/Line.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/FolderAsset.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Editor Visual UIElements/SettingsPanel.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/Structures.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/PersistentFolderIconsData.cs
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Projects/Folder Icons/Scripts/IconManager.cs
+  - Packages/com.compilerdestroyer.editorvisual/README.md
+  - Packages/com.compilerdestroyer.editorvisual/Editor/Project Management/EmbedEditorVisualProject.cs
   iconSetDataList:
   - iconSetName: None
     iconSetData: []

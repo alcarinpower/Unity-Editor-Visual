@@ -4,7 +4,11 @@
   "displayName": "Editor Visual",
   "description": "This package contain tools that change editor's visual.",
   "unity": "6000.0",
-  "gitDependencies": [
+  "author": {
+    "name": "Compiler Destroyer",
+    "email": "metamorfikd@gmail.com"
+  },
+  "gitDependencies":[
     "https://github.com/oleghcp/UnityTools.git"
   ]
 }
