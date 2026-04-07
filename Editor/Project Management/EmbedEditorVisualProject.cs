@@ -54,9 +54,6 @@ namespace CodeDestroyer.Editor.EditorVisual
         {
             if (listRequest.IsCompleted)
             {
-                Debug.Log(listRequest.Status);
-                Debug.Log(listRequest.Result);
-                Debug.Log(listRequest.Error);
                 if (listRequest.Status == StatusCode.Success)
                 {
 
@@ -84,8 +81,12 @@ namespace CodeDestroyer.Editor.EditorVisual
         {
             if (Request.IsCompleted)
             {
+                Debug.Log(Request.Status);
+                Debug.Log(Request.Result);
+                Debug.Log(Request.Error);
                 if (Request.Status == StatusCode.Success)
                 {
+
                     File.Delete(thisScriptPath);
                     File.Delete(thisScriptPath + ".meta");
                     AssetDatabase.Refresh();
