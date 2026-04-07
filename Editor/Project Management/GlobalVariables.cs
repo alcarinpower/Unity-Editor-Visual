@@ -10,8 +10,8 @@ namespace CodeDestroyer.Editor
         public const string NickName = "Code Destroyer";
         public const string DomainName = "com.codedestroyer";
         public const string UnityEditorVisualPackageName = "com.codedestroyer.unityeditorvisual";
-        public const string ProjectsPath = "Packages/com.codedestroyer.editorvisual/Editor/Projects";
-        public const string ProjectManagerPath = "Packages/com.codedestroyer.editorvisual/Editor/Project Management";
+        public const string ProjectsPath = "Packages/com.codedestroyer.unityeditorvisual/Editor/Projects";
+        public const string ProjectManagerPath = "Packages/com.codedestroyer.unityeditorvisual/Editor/Project Management";
 
         public const string FolderIconsPath = ProjectsPath + "/Folder Icons";
 
