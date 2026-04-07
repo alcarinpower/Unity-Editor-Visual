@@ -37,16 +37,21 @@ namespace CodeDestroyer.Editor.EditorVisual
 
             if (File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
             {
+                Debug.Log("FÝle Exist");
                 bool isLocal = packageSource == PackageSource.Embedded || packageSource == PackageSource.Local || packageSource == PackageSource.LocalTarball;
 
                 if (!isLocal)
                 {
+                    Debug.Log("isLocal");
+
                     persistentFolderIconsData.packageIsInstalledLocally = false;
                     SavePersistentData();
                     Debug.LogWarning("Project is installed with git. Nothing will work! Please save icons, then remove and reinstall entire project.");
                 }
                 else
                 {
+                    Debug.Log("not Local");
+
                     persistentFolderIconsData.packageIsInstalledLocally = true;
                     SavePersistentData();
                 }
