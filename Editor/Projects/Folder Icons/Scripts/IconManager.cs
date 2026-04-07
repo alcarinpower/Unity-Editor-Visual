@@ -31,11 +31,7 @@ namespace CodeDestroyer.Editor.EditorVisual
         // Main function that includes everything that must be running from AssetPostProccesor with didDomainReload block
         internal static void InitializeFolderIcons()
         {
-            if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath)) return;
-            Debug.Log("before AssetOperations");
             AssetOperations();
-
-            Debug.Log("after AssetOperations");
 
             PackageInfo packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName);
             PackageSource packageSource = PackageSource.Unknown;
@@ -43,13 +39,9 @@ namespace CodeDestroyer.Editor.EditorVisual
             {
                 packageSource = packageInfo.source;
             }
-            Debug.Log("hehehe");
-
             if (packageInfo != null && File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
             {
                 bool isLocal = packageSource == PackageSource.Embedded || packageSource == PackageSource.Local || packageSource == PackageSource.LocalTarball;
-                Debug.Log("Worked");
-
                 if (!isLocal)
                 {
                     persistentFolderIconsData.packageIsInstalledLocally = false;
@@ -64,7 +56,6 @@ namespace CodeDestroyer.Editor.EditorVisual
             }
             else
             {
-                Debug.Log("Nope");
                 return;
             }
 

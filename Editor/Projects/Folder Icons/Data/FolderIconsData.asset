@@ -3466,6 +3466,8 @@ MonoBehaviour:
   - Packages/com.unity.ide.visualstudio/Editor/ProjectGeneration
   - Packages/com.unity.ide.visualstudio/Editor/Testing
   - Packages/com.unity.ide.visualstudio/Editor/VSWhere
+  - Packages/com.codedestroyer.unityeditorvisual/Editor/Projects/Folder Icons/Data/FolderIconsData.asset
+  - Packages/com.codedestroyer.unityeditorvisual/Editor/Project Management/EmbedEditorVisualProject.cs
   iconSetDataList:
   - iconSetName: None
     iconSetData: []
