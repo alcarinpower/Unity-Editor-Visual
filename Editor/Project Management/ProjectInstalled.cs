@@ -26,9 +26,14 @@ public class ProjectInstalled
 
         if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
         {
-            PackageSource packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName).source;
+            PackageInfo packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName);
+            PackageSource packageSource = PackageSource.Unknown;
 
-            if (packageInfo == PackageSource.Embedded || packageInfo == PackageSource.Local || packageInfo == PackageSource.LocalTarball)
+            if (packageInfo != null)
+            {
+                packageSource = packageInfo.source;
+            }
+            if (packageSource == PackageSource.Embedded || packageSource == PackageSource.Local || packageSource == PackageSource.LocalTarball)
             {
                 File.WriteAllText(GlobalVariables.ProjectTempInstalledFilePath, "Already Embedded Package!");
             }
