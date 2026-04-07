@@ -79,11 +79,11 @@ namespace CodeDestroyer.Editor.EditorVisual
 
         static void EmbedProgress()
         {
+            Debug.Log(Request.Status);
+            Debug.Log(Request.Result);
+            Debug.Log(Request.Error);
             if (Request.IsCompleted)
             {
-                Debug.Log(Request.Status);
-                Debug.Log(Request.Result);
-                Debug.Log(Request.Error);
                 if (Request.Status == StatusCode.Success)
                 {
 
