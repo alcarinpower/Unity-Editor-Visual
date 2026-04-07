@@ -1,9 +1,9 @@
-namespace CompilerDestroyer.Editor.EditorVisual
-{
-    using System.IO;
-    using UnityEditor;
-    using UnityEngine;
+using System.IO;
+using UnityEditor;
+using UnityEngine;
 
+namespace CodeDestroyer._Editor.EditorVisual
+{
     public sealed class FolderIconsPostproccesor : AssetPostprocessor
     {
         // Handle updating dictionary that checks if a folder is empty or not and Handle applying icons to the newly created folders with icon sets

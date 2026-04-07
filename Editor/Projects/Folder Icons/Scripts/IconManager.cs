@@ -7,7 +7,7 @@ using System.Linq;
 using UnityEditor.PackageManager;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 
-namespace CompilerDestroyer.Editor.EditorVisual
+namespace CodeDestroyer._Editor.EditorVisual
 {
     internal sealed class IconManager
     {

@@ -1,13 +1,14 @@
-namespace CompilerDestroyer.Editor.EditorVisual
+using UnityEditor;
+using UnityEngine;
+
+namespace CodeDestroyer._Editor.EditorVisual
 {
-    using UnityEditor;
-    using UnityEngine;
     internal static class ProjectConstants
     {
         internal const string packageFolderPath = GlobalVariables.ProjectsPath + "/Folder Icons";
         internal const string defaultUnityIconsPath = packageFolderPath + "/Default Icons/Default Unity Icons";
 
-        internal const string dependencyPackages = "com.compilerdestroyer.editortools";
+        internal const string dependencyPackages = "com.codedestroyer.editortools";
         internal const string dataPath = packageFolderPath + "/Data";
 
 

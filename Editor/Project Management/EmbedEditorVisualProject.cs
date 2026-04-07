@@ -7,7 +7,7 @@ using System.IO;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using Debug = UnityEngine.Debug;
 
-namespace CompilerDestroyer.Editor.EditorVisual
+namespace CodeDestroyer._Editor.EditorVisual
 {
     public class EmbedEditorVisualProject
     {

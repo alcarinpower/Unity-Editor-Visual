@@ -2,9 +2,9 @@
 using UnityEditor;
 using UnityEngine.UIElements;
 using UnityEngine;
-using CompilerDestroyer.Editor.EditorVisual.UIElements;
+using CodeDestroyer._Editor.EditorVisual.UIElements;
 
-namespace CompilerDestroyer.Editor.EditorVisual
+namespace CodeDestroyer._Editor.EditorVisual
 {
     public sealed class EditorVisualSettingsWindow : EditorWindow
     {
@@ -17,7 +17,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         private List<TreeViewItemData<string>> projectSettingsList = new List<TreeViewItemData<string>>();
         private Dictionary<string, VisualElement> rootDict = new Dictionary<string, VisualElement>();
 
-        [MenuItem("Tools/Compiler Destroyer/Editor Visual")]
+        [MenuItem("Tools/Code Destroyer/Editor Visual")]
         private static void ShowWindow()
         {
             EditorVisualSettingsWindow settingsWindow = GetWindow<EditorVisualSettingsWindow>();

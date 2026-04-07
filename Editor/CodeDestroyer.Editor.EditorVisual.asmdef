@@ -1,5 +1,5 @@
 {
-    "name": "EditorVisual",
+    "name": "UnityEditorVisual",
     "rootNamespace": "",
     "references": [],
     "includePlatforms": [

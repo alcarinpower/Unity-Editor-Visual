@@ -3,7 +3,7 @@ using UnityEditor;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using UnityEditor.PackageManager;
 using System.Linq;
-using CompilerDestroyer.Editor;
+using CodeDestroyer._Editor;
 using UnityEngine;
 
 [InitializeOnLoad]

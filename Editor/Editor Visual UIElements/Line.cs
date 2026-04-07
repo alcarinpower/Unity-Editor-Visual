@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-namespace CompilerDestroyer.Editor.EditorVisual.UIElements
+namespace CodeDestroyer._Editor.EditorVisual.UIElements
 {
     /// <summary>
     /// A custom visual element that represents a line. This line can be either horizontal or vertical, and its length and color can be customized.

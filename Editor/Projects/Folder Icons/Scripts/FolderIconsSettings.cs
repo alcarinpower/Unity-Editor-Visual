@@ -6,10 +6,10 @@ using System.IO;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 using System.Linq;
-using CompilerDestroyer.Editor.EditorVisual.UIElements;
+using CodeDestroyer._Editor.EditorVisual.UIElements;
 using System.Text.RegularExpressions;
 
-namespace CompilerDestroyer.Editor.EditorVisual
+namespace CodeDestroyer._Editor.EditorVisual
 {
     public sealed class FolderIconsSettings
     {

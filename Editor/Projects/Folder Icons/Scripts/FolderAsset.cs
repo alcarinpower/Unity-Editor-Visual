@@ -1,8 +1,8 @@
-﻿namespace CompilerDestroyer.Editor.EditorVisual
-{
-    using UnityEditor;
-    using UnityEngine;
+﻿using UnityEditor;
+using UnityEngine;
 
+namespace CodeDestroyer._Editor.EditorVisual
+{
     [CustomEditor(typeof(DefaultAsset))]
     internal sealed class FolderAsset : Editor
     {

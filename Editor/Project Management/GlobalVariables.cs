@@ -2,16 +2,16 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace CompilerDestroyer.Editor
+namespace CodeDestroyer._Editor
 {
     public static class GlobalVariables
     {
         // Project Paths
-        public const string NickName = "Compiler Destroyer";
-        public const string DomainName = "com.compilerdestroyer";
-        public const string UnityEditorVisualPackageName = "com.compilerdestroyer.editorvisual";
-        public const string ProjectsPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Projects";
-        public const string ProjectManagerPath = "Packages/com.compilerdestroyer.editorvisual/Editor/Project Management";
+        public const string NickName = "Code Destroyer";
+        public const string DomainName = "com.codedestroyer";
+        public const string UnityEditorVisualPackageName = "com.codedestroyer.editorvisual";
+        public const string ProjectsPath = "Packages/com.codedestroyer.editorvisual/Editor/Projects";
+        public const string ProjectManagerPath = "Packages/com.codedestroyer.editorvisual/Editor/Project Management";
 
         public const string FolderIconsPath = ProjectsPath + "/Folder Icons";
 

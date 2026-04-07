@@ -4,7 +4,7 @@ using System;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 
-namespace CompilerDestroyer.Editor.EditorVisual
+namespace CodeDestroyer._Editor.EditorVisual
 {
 
     [Serializable]
@@ -54,7 +54,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
                 rootVisualElement.style.width = 270f;
                 rootVisualElement.style.height = 45f;
 
-                Label disabledLabel = new Label("Icon Sets Are Enabled! For Disabling Icon Sets:\nChoose \"None\" from dropdown menu\nTools > Compiler Destroyer > Editor Visual > Folder Icons");
+                Label disabledLabel = new Label("Icon Sets Are Enabled! For Disabling Icon Sets:\nChoose \"None\" from dropdown menu\nTools > Code Destroyer > Editor Visual > Folder Icons");
 
                 rootVisualElement.Add(disabledLabel);
             }
