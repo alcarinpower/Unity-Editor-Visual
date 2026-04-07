@@ -13,7 +13,7 @@
 
         private void OnEnable()
         {
-            currentPath = AssetDatabase.GetAssetPath(Selection.activeInstanceID);
+            currentPath = AssetDatabase.GetAssetPath(Selection.activeEntityId);
             selectedAssetGUID = AssetDatabase.AssetPathToGUID(currentPath);
         }
 
@@ -36,7 +36,7 @@
                 GUILayout.Space(21f);
                 GUILayout.BeginHorizontal();
 
-                HeaderFunctions.DrawHeaderOpenButton(target.GetInstanceID(), IconManager.headerContents.openButton,
+                HeaderFunctions.DrawHeaderOpenButton(target.GetEntityId(), IconManager.headerContents.openButton,
                     HeaderFunctions.GetStyle("miniButton"));
 
                 GUILayout.EndHorizontal();

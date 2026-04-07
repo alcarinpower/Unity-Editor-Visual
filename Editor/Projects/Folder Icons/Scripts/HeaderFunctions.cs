@@ -8,7 +8,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
     internal static class HeaderFunctions
     {
         // Draw open button in the inspector header
-        internal static void DrawHeaderOpenButton(int currentAssetInstanceId, GUIContent openButtonGUIContent, GUIStyle openButtonStyle)
+        internal static void DrawHeaderOpenButton(EntityId currentAssetInstanceId, GUIContent openButtonGUIContent, GUIStyle openButtonStyle)
         {
             GUILayoutUtility.GetRect(10f, 10f, 16f, 16f, EditorStyles.layerMaskField);
             GUILayout.FlexibleSpace();

@@ -69,7 +69,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
                 return;
             }
 
-            currentAssetPath = AssetDatabase.GetAssetPath(Selection.activeInstanceID);
+            currentAssetPath = AssetDatabase.GetAssetPath(Selection.activeEntityId);
             currentAssetGUID = AssetDatabase.AssetPathToGUID(currentAssetPath);
 
 
@@ -129,7 +129,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         // In order to temporarily creating a texture and drawing color folder. Otherwise we would have to create a GUIDTextureData and that would not be performant.
         private static void PrivateCreateDefaultFolderWithColor(Color currentColor, ref Texture2D emptyFolderTexture, ref Texture2D defaultFolderTexture)
         {
-            string folderPath = AssetDatabase.GetAssetPath(Selection.activeInstanceID);
+            string folderPath = AssetDatabase.GetAssetPath(Selection.activeEntityId);
             if (AssetDatabase.IsValidFolder(folderPath))
             {
                 IconManager.isFolderFilledDict.TryGetValue(folderPath, out bool isFolderFilled);
@@ -176,7 +176,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         }
         internal static void DrawFolderColor(string guid, Rect selectionRect)
         {
-            if (guid != AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Selection.activeInstanceID))) return;
+            if (guid != AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Selection.activeEntityId))) return;
 
             string folderPath = AssetDatabase.GUIDToAssetPath(guid);
 
@@ -207,7 +207,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
         // Handle showing of custom texture in the project view
         internal static void DrawFolderTexture(string guid, Rect selectionRect)
         {
-            if (guid != AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Selection.activeInstanceID))) return;
+            if (guid != AssetDatabase.AssetPathToGUID(AssetDatabase.GetAssetPath(Selection.activeEntityId))) return;
             UtilityFunctions.DrawTextures(guid, selectionRect, IconManager.projectCurrentCustomTexture);
         }
         internal static void ChangeFolderTexture()

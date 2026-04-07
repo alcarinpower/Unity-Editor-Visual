@@ -397,9 +397,6 @@ namespace CompilerDestroyer.Editor.EditorVisual
             }
         }
 
-        private static Color blueColor = new Color(0.172549f, 0.3647059f, 0.5294118f);
-        private static Color greyColor = new Color(0.3019608f, 0.3019608f, 0.3019608f);
-        private static string[] previousGuid;
         // Draw one item in the project window
         internal static void DrawTextures(string guid, Rect rect, Texture2D texture2d)
         {
@@ -418,80 +415,7 @@ namespace CompilerDestroyer.Editor.EditorVisual
             else rect.height -= 14f;
 
             if (texture2d == null) return;
-
-
-            if (Selection.assetGUIDs.Length > 0)
-            {
-                previousGuid = Selection.assetGUIDs;
-            }
-
-            foreach (string selectedGuid in Selection.assetGUIDs)
-            {
-                if (selectedGuid == guid)
-                {
-                    EditorGUI.DrawRect(rect, blueColor);
-
-                }
-            }
-            if (Selection.assetGUIDs.Length == 0)
-            {
-                if (previousGuid != null)
-                {
-                    for (int i = 0; i < previousGuid.Length; i++)
-                    {
-                        string currentGuid = previousGuid[i];
-
-                        if (currentGuid == guid)
-                        {
-                            EditorGUI.DrawRect(rect, greyColor);
-                        }
-                    }
-                }
-            }
-            else
-            {
-                if (EditorWindow.focusedWindow != null)
-                {
-                    if (EditorWindow.focusedWindow.titleContent.text != "Project")
-                    {
-                        if (previousGuid != null)
-                        {
-                            for (int i = 0; i < previousGuid.Length; i++)
-                            {
-                                string currentGuid = previousGuid[i];
-
-                                if (currentGuid == guid)
-                                {
-                                    EditorGUI.DrawRect(rect, greyColor);
-                                }
-                            }
-                        }
-                    }
-                }
-                else if (EditorWindow.focusedWindow == null)
-                {
-                    if (previousGuid != null)
-                    {
-                        for (int i = 0; i < previousGuid.Length; i++)
-                        {
-                            string currentGuid = previousGuid[i];
-
-                            if (currentGuid == guid)
-                            {
-                                EditorGUI.DrawRect(rect, greyColor);
-                            }
-                        }
-                    }
-                }
-            }
-
-            if (previousGuid != null)
-            {
-                if (!previousGuid.Contains(guid))
-                {
-                    EditorGUI.DrawRect(rect, ProjectConstants.projectBackgroundColor);
-                }
-            }
+          
             GUI.DrawTexture(rect, texture2d, ScaleMode.ScaleAndCrop);
         }
 
