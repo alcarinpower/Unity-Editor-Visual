@@ -45,23 +45,32 @@ namespace CodeDestroyer.Editor.EditorVisual
 
         private static void TrySearchEmbeddedPackage()
         {
+            Debug.Log("Inside TrySearchEmbeddedPackage Function");
             listRequest = Client.List();
             EditorApplication.update += ListProgress;
         }
         static void ListProgress()
         {
+            Debug.Log("Inside ListProgress Function");
+
             if (listRequest.IsCompleted)
             {
+                Debug.Log("Inside ListProgress Function " + listRequest.Result);
+
                 if (listRequest.Status == StatusCode.Success)
                 {
+                    Debug.Log("Inside ListProgress Function " + listRequest.Status);
 
                     if (listRequest.Result.Any(pkg => pkg.name == GlobalVariables.UnityEditorVisualPackageName))
                     {
+                        Debug.Log("Package Found");
+
                         EmbedProject(GlobalVariables.UnityEditorVisualPackageName);
                     }
                 }
                 else
                 {
+
                     Debug.Log(listRequest.Error.message);
                 }
 
@@ -71,16 +80,23 @@ namespace CodeDestroyer.Editor.EditorVisual
 
         static void EmbedProject(string inTarget)
         {
+            Debug.Log("EmbedProject ");
+
             Request = Client.Embed(inTarget);
             EditorApplication.update += EmbedProgress;
         }
 
         static void EmbedProgress()
         {
+            Debug.Log("Inside EmbedProgress");
+
             if (Request.IsCompleted)
             {
+                Debug.Log("iscompleted embedprogress");
+
                 if (Request.Status == StatusCode.Success)
                 {
+                    Debug.Log(Request.Status);
 
                     File.Delete(thisScriptPath);
                     File.Delete(thisScriptPath + ".meta");
@@ -88,6 +104,7 @@ namespace CodeDestroyer.Editor.EditorVisual
                 }
                 else if (Request.Status >= StatusCode.Failure)
                 {
+                    Debug.Log(Request.Status);
 
                 }
 
