@@ -76,7 +76,7 @@
 <div align="center">
 
  ```
-https://github.com/alcarinpower/Folder-Icons.git
+https://github.com/alcarinpower/Unity-Editor-Visual.git
 ```
 </div>
 
