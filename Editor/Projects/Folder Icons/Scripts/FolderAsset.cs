@@ -1,10 +1,9 @@
 ﻿using UnityEditor;
 using UnityEngine;
-
-namespace CodeDestroyer._Editor.EditorVisual
+namespace CodeDestroyer.Editor.EditorVisual
 {
     [CustomEditor(typeof(DefaultAsset))]
-    internal sealed class FolderAsset : Editor
+    internal sealed class FolderAsset : UnityEditor.Editor
     {
         internal string currentPath;
         internal string selectedAssetGUID;

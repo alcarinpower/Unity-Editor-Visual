@@ -4,7 +4,7 @@ using System;
 using UnityEngine.UIElements;
 using UnityEditor.UIElements;
 
-namespace CodeDestroyer._Editor.EditorVisual
+namespace CodeDestroyer.Editor.EditorVisual
 {
 
     [Serializable]

@@ -2,7 +2,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace CodeDestroyer._Editor.EditorVisual
+namespace CodeDestroyer.Editor.EditorVisual
 {
     public sealed class FolderIconsPostproccesor : AssetPostprocessor
     {

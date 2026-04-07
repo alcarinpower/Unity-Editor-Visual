@@ -2,7 +2,7 @@ using System.IO;
 using UnityEditor;
 using UnityEngine;
 
-namespace CodeDestroyer._Editor
+namespace CodeDestroyer.Editor
 {
     public static class GlobalVariables
     {

@@ -2,9 +2,9 @@
 using UnityEditor;
 using UnityEngine.UIElements;
 using UnityEngine;
-using CodeDestroyer._Editor.EditorVisual.UIElements;
+using CodeDestroyer.Editor.EditorVisual.UIElements;
 
-namespace CodeDestroyer._Editor.EditorVisual
+namespace CodeDestroyer.Editor.EditorVisual
 {
     public sealed class EditorVisualSettingsWindow : EditorWindow
     {

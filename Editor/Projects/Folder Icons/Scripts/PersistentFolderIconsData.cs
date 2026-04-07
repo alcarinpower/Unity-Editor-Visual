@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace CodeDestroyer._Editor.EditorVisual
+namespace CodeDestroyer.Editor.EditorVisual
 {
 
     // We need any type of persistent data that will be remain same between unity sessions Alternatively we can use PlayerPrefs, JsonUtility

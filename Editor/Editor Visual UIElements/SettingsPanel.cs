@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 using UnityEngine;
 using UnityEditor;
 
-namespace CodeDestroyer._Editor.EditorVisual.UIElements
+namespace CodeDestroyer.Editor.EditorVisual.UIElements
 {
     /// <summary>
     /// Represents a settings panel similar to Unity's Project Settings or Preferences. This panel requires a list of TreeViewItemData (for the left pane)

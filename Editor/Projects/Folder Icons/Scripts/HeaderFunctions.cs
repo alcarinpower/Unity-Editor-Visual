@@ -2,7 +2,7 @@ using UnityEditor;
 using UnityEngine;
 using System.Linq;
 
-namespace CodeDestroyer._Editor.EditorVisual
+namespace CodeDestroyer.Editor.EditorVisual
 {
 
     internal static class HeaderFunctions

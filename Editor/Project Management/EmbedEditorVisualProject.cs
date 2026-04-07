@@ -7,7 +7,7 @@ using System.IO;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
 using Debug = UnityEngine.Debug;
 
-namespace CodeDestroyer._Editor.EditorVisual
+namespace CodeDestroyer.Editor.EditorVisual
 {
     public class EmbedEditorVisualProject
     {
@@ -21,9 +21,15 @@ namespace CodeDestroyer._Editor.EditorVisual
         {
             if (File.Exists(GlobalVariables.ProjectTempInstalledFilePath)) return;
 
-            PackageSource packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName).source;
+            PackageInfo packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName);
+            PackageSource packageSource = PackageSource.Unknown;
 
-            if (packageInfo != PackageSource.Embedded && packageInfo != PackageSource.Local && packageInfo != PackageSource.LocalTarball)
+            if (packageInfo != null)
+            {
+                packageSource = packageInfo.source;
+            }
+
+            if (packageSource != PackageSource.Embedded && packageSource != PackageSource.Local && packageSource != PackageSource.LocalTarball)
             {
                 Debug.Log(GlobalVariables.UnityEditorVisualPackageName + " is embedding now!");
                 TrySearchEmbeddedPackage();
