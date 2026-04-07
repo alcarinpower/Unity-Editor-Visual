@@ -33,6 +33,7 @@ namespace CodeDestroyer.Editor.EditorVisual
         {
             if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath)) return;
             Debug.Log("before AssetOperations");
+            AssetOperations();
 
             Debug.Log("after AssetOperations");
 
@@ -66,7 +67,6 @@ namespace CodeDestroyer.Editor.EditorVisual
                 Debug.Log("Nope");
                 return;
             }
-            AssetOperations();
 
             InitInspectorHeaderContents();
 
