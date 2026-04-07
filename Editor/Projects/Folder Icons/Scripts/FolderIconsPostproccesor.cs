@@ -11,6 +11,8 @@ namespace CodeDestroyer.Editor.EditorVisual
         {
             if (didDomainReload)
             {
+                if (!File.Exists(GlobalVariables.ProjectTempInstalledFilePath)) return;
+
                 IconManager.InitializeFolderIcons();
             }
             if (importedAssets.Length > 0)

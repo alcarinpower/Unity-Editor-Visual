@@ -19,10 +19,7 @@ namespace CodeDestroyer.Editor.EditorVisual
         [InitializeOnLoadMethod]
         private static void InitEmbeddingEditorVisualProject()
         {
-            Debug.Log("Pre Check");
             if (File.Exists(GlobalVariables.ProjectTempInstalledFilePath)) return;
-
-            Debug.Log("After Check");
 
             PackageInfo packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName);
             PackageSource packageSource = PackageSource.Unknown;
