@@ -3,8 +3,5 @@
   "version": "1.0.0",
   "displayName": "Editor Visual",
   "description": "This package contain tools that change editor's visual.",
-  "unity": "6000.0",
-  "gitDependencies": [
-    "https://github.com/oleghcp/UnityTools.git"
-  ]
+  "unity": "6000.0"
 }
