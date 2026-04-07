@@ -19,7 +19,10 @@ namespace CodeDestroyer.Editor.EditorVisual
         [InitializeOnLoadMethod]
         private static void InitEmbeddingEditorVisualProject()
         {
+            Debug.Log("Pre Check");
             if (File.Exists(GlobalVariables.ProjectTempInstalledFilePath)) return;
+
+            Debug.Log("After Check");
 
             PackageInfo packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName);
             PackageSource packageSource = PackageSource.Unknown;
@@ -51,6 +54,9 @@ namespace CodeDestroyer.Editor.EditorVisual
         {
             if (listRequest.IsCompleted)
             {
+                Debug.Log(listRequest.Status);
+                Debug.Log(listRequest.Result);
+                Debug.Log(listRequest.Error);
                 if (listRequest.Status == StatusCode.Success)
                 {
 
