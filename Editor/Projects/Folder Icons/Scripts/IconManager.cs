@@ -33,28 +33,33 @@ namespace CodeDestroyer.Editor.EditorVisual
         {
             AssetOperations();
 
-            PackageSource packageSource = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName).source;
-
-            if (File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
+            PackageInfo packageInfo = PackageInfo.FindForPackageName(GlobalVariables.UnityEditorVisualPackageName);
+            PackageSource packageSource = PackageSource.Unknown;
+            if (packageInfo != null)
             {
-                Debug.Log("FÝle Exist");
+                packageSource = packageInfo.source;
+            }
+
+            if (packageInfo != null && File.Exists(GlobalVariables.ProjectTempInstalledFilePath))
+            {
                 bool isLocal = packageSource == PackageSource.Embedded || packageSource == PackageSource.Local || packageSource == PackageSource.LocalTarball;
 
                 if (!isLocal)
                 {
-                    Debug.Log("isLocal");
-
                     persistentFolderIconsData.packageIsInstalledLocally = false;
                     SavePersistentData();
                     Debug.LogWarning("Project is installed with git. Nothing will work! Please save icons, then remove and reinstall entire project.");
                 }
                 else
                 {
-                    Debug.Log("not Local");
-
                     persistentFolderIconsData.packageIsInstalledLocally = true;
                     SavePersistentData();
                 }
+            }
+            else
+            {
+                Debug.Log("Nope");
+                return;
             }
 
             InitInspectorHeaderContents();
