@@ -3,8 +3,6 @@
 
 <p align="center"> Unity Editor Visual is a toolkit that lets you change visual appearance of the Unity Editor </p>
 
-<br>
-
 <!-- ----------------------------------------------------Table of Contents----------------------------------------------------- -->
 <h2 align="center">Table of Contents</h2>
 
